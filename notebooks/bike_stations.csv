@@ -1,0 +1,37 @@
+network,name,latitude,longitude,free_bikes,empty_slots,slots,calculated_total
+abu-dhabi,AUH - Marasy,24.451202,54.33451,0,7,7,7
+abu-dhabi,AUH - Al Zeina,24.456953,54.6157541,1,14,15,15
+abu-dhabi,AUH - ADIA HQ,24.486103,54.350087,4,6,10,10
+abu-dhabi,AUH - Al Muneera North,24.452079,54.604651,1,2,3,3
+abu-dhabi,AUH - Yas Marina,24.465793,54.60961,1,3,4,4
+abu-dhabi,AUH - Nation Riviera,24.46568,54.328189,0,10,12,10
+abu-dhabi,AUH - Nation Towers,24.465272,54.328835,1,3,4,4
+abu-dhabi,AUH - Masdar Park,24.4301018,54.6222247,1,6,7,7
+abu-dhabi,AUH - Marina Mall Signal,24.471234,54.323041,2,6,8,8
+abu-dhabi,AUH - Sky Tower,24.496565,54.408766,1,4,5,5
+abu-dhabi,AUH - Corniche East,24.495664,54.358364,0,11,11,11
+abu-dhabi,AUH - Corniche Plaza,24.4736005,54.3411577,3,11,14,14
+abu-dhabi,AUH - Ferrari World,24.485254,54.608061,1,6,7,7
+abu-dhabi,AUH - Gate Tower,24.493276,54.408307,1,4,5,5
+abu-dhabi,AUH - Rayhaan Rotana,24.456118,54.318692,2,7,9,9
+abu-dhabi,AUH - Hamdan - Salam,24.496235,54.373636,1,13,14,14
+abu-dhabi,AUH - Miza,24.5195,54.367972,3,4,8,7
+abu-dhabi,AUH - Al Yousuf Center,24.49209,54.366101,0,13,14,13
+abu-dhabi,AUH - Muneera South,24.450142,54.6052761,2,6,8,8
+abu-dhabi,AUH - Capital Plaza,24.498709,54.368072,1,8,9,9
+abu-dhabi,AUH - Al Aryam Tower,24.507333,54.3763,1,9,10,10
+abu-dhabi,AUH - WTC,24.48809,54.356111,0,7,7,7
+acces-velo-saguenay,UQAC,48.42048,-71.05338,3,2,7,5
+acces-velo-saguenay,Terminus Ste-Therese,48.4326802,-71.175537,0,7,7,7
+acces-velo-saguenay,Place du Royaume,48.4044567,-71.0582083,3,2,7,5
+acces-velo-saguenay,Centre-Ville Kenogami,48.4241013,-71.2393211,2,4,7,6
+acces-velo-saguenay,Cégep de Chicoutimi,48.42511890000001,-71.0513359,6,1,7,7
+acces-velo-saguenay,Station Rene-Levesque,48.404255,-71.2163722,2,4,7,6
+acces-velo-saguenay,Carre Davis,48.4260924,-71.1820973,3,4,7,7
+acces-velo-saguenay,Place du Citoyen,48.4280227,-71.0625061,0,6,7,6
+acces-velo-saguenay,Parc Riviere-du-moulin,48.3989743,-71.0467171,4,3,7,7
+acces-velo-saguenay,Terminus Jonquiere,48.4118069,-71.2548896,2,5,7,7
+acces-velo-saguenay,Terminus La Baie,48.3372301,-70.8795642,3,4,7,7
+acces-velo-saguenay,Quai des croisieres,48.3438044,-70.880053,3,4,7,7
+acces-velo-saguenay,Parc du Bassin,48.4255078,-71.0740644,5,2,7,7
+acces-velo-saguenay,Chicoutimi-Nord (rue du Pont),48.4360499,-71.0672709,0,5,7,5
