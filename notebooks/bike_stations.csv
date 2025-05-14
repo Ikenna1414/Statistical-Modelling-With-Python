@@ -1,37 +1,965 @@
 network,name,latitude,longitude,free_bikes,empty_slots,slots,calculated_total
-abu-dhabi,AUH - Marasy,24.451202,54.33451,0,7,7,7
-abu-dhabi,AUH - Al Zeina,24.456953,54.6157541,1,14,15,15
-abu-dhabi,AUH - ADIA HQ,24.486103,54.350087,4,6,10,10
-abu-dhabi,AUH - Al Muneera North,24.452079,54.604651,1,2,3,3
-abu-dhabi,AUH - Yas Marina,24.465793,54.60961,1,3,4,4
-abu-dhabi,AUH - Nation Riviera,24.46568,54.328189,0,10,12,10
-abu-dhabi,AUH - Nation Towers,24.465272,54.328835,1,3,4,4
-abu-dhabi,AUH - Masdar Park,24.4301018,54.6222247,1,6,7,7
-abu-dhabi,AUH - Marina Mall Signal,24.471234,54.323041,2,6,8,8
-abu-dhabi,AUH - Sky Tower,24.496565,54.408766,1,4,5,5
-abu-dhabi,AUH - Corniche East,24.495664,54.358364,0,11,11,11
-abu-dhabi,AUH - Corniche Plaza,24.4736005,54.3411577,3,11,14,14
-abu-dhabi,AUH - Ferrari World,24.485254,54.608061,1,6,7,7
-abu-dhabi,AUH - Gate Tower,24.493276,54.408307,1,4,5,5
-abu-dhabi,AUH - Rayhaan Rotana,24.456118,54.318692,2,7,9,9
-abu-dhabi,AUH - Hamdan - Salam,24.496235,54.373636,1,13,14,14
-abu-dhabi,AUH - Miza,24.5195,54.367972,3,4,8,7
-abu-dhabi,AUH - Al Yousuf Center,24.49209,54.366101,0,13,14,13
-abu-dhabi,AUH - Muneera South,24.450142,54.6052761,2,6,8,8
-abu-dhabi,AUH - Capital Plaza,24.498709,54.368072,1,8,9,9
-abu-dhabi,AUH - Al Aryam Tower,24.507333,54.3763,1,9,10,10
-abu-dhabi,AUH - WTC,24.48809,54.356111,0,7,7,7
-acces-velo-saguenay,UQAC,48.42048,-71.05338,3,2,7,5
-acces-velo-saguenay,Terminus Ste-Therese,48.4326802,-71.175537,0,7,7,7
-acces-velo-saguenay,Place du Royaume,48.4044567,-71.0582083,3,2,7,5
+bixi_montreal,Métro de l'Église (Ross / de l'Église),45.4628312022419,-73.56593772768973,7,12,19,19
+bixi_montreal,Square-Victoria (Viger / du Square-Victoria),45.50208503935104,-73.56294138360681,14,22,37,36
+bixi_montreal,Hudson / Goyer,45.507437367855864,-73.63265757772751,11,12,23,23
+bixi_montreal,Marché Jean-Talon (Casgrain / Shamrock),45.53519006163501,-73.61548215150833,9,17,29,26
+bixi_montreal,du Fort Saint-Louis / de la Perrière,45.613330089384625,-73.45154017210007,8,7,15,15
+bixi_montreal,Drummond / de Maisonneuve,45.49947991442336,-73.5759771368248,4,15,19,19
+bixi_montreal,de Maisonneuve / Aylmer (ouest),45.505173440423306,-73.5706517100334,0,34,37,34
+bixi_montreal,Rivard / du Mont-Royal,45.524558956532104,-73.58263313770294,4,21,27,25
+bixi_montreal,Hamilton / Jolicoeur,45.45670692115263,-73.59764814376831,10,5,15,15
+bixi_montreal,de Lisieux / Jean-Talon,45.57934937043077,-73.58168095350266,11,7,18,18
+bixi_montreal,Drolet / Beaubien,45.533348,-73.605834,10,12,23,22
+bixi_montreal,Parc LaSalle (10e avenue / Victoria),45.43805550384184,-73.67273926734924,7,12,19,19
+bixi_montreal,CHSLD Joseph-François-Perrault (St-Michel / Everett),45.55969734528566,-73.60145956277847,1,17,18,18
+bixi_montreal,Parc de Montréal-Est (Notre-Dame / David),45.61316323215739,-73.50989364087582,5,14,19,19
+bixi_montreal,Boyer / Bélanger,45.54006,-73.60897,6,19,27,25
+bixi_montreal,Mackay / René-Lévesque,45.49445745087875,-73.57411649085407,18,16,35,34
+bixi_montreal,University / Prince-Arthur,45.5074794530521,-73.57864737510681,17,30,47,47
+bixi_montreal,Hôpital Général Juif (de la Côte-Ste-Catherine / Légaré),45.49624140543275,-73.62983867526054,12,24,37,36
+bixi_montreal,Poupart / Ontario,45.531836726498305,-73.55348825454712,5,14,19,19
+bixi_montreal,Logan / Lafayette,45.51654502289009,-73.50663459861607,5,17,23,22
+bixi_montreal,Parc St-Roch (Ball / Durocher),45.531988684096795,-73.63144129514694,6,8,15,14
+bixi_montreal,Letourneux / Hochelaga,45.55465888075087,-73.54660302400589,8,7,15,15
+bixi_montreal,Faribault / de Chambly,45.52219254225171,-73.4650525078905,7,12,19,19
+bixi_montreal,Métro Frontenac (Ontario / du Havre),45.533705987798946,-73.55217933654784,7,13,23,20
+bixi_montreal,des Ormeaux /  Notre-Dame,45.59919866666637,-73.5121876001358,0,23,23,23
+bixi_montreal,Duluth  / St-Denis,45.52062760607925,-73.57594907283782,13,1,15,14
+bixi_montreal,Jeanne-Mance / St-Viateur,45.523026476635074,-73.60184043645859,10,19,31,29
+bixi_montreal,Parc Armand-Bombardier (Perras / Armand-Bombardier),45.6391233,-73.5961118,8,6,15,14
+bixi_montreal,Canning / Notre-Dame,45.486318644010225,-73.5702332854271,2,25,27,27
+bixi_montreal,Parc Howard (de l'Épée / de Liège),45.533376932033164,-73.64228380847635,8,13,21,21
+bixi_montreal,de l'Hôtel-de-Ville / Ontario,45.51374520222444,-73.56666326522826,5,21,27,26
+bixi_montreal,Marché public de Longueuil (de la Savane),45.51284242857164,-73.43156225049825,6,15,21,21
+bixi_montreal,Collège de Maisonneuve (Sherbrooke / Bourbonnière),45.55144364425768,-73.55469642207026,1,14,17,15
+bixi_montreal,Parc du Père-Marquette (de Bellechasse / de Lanaudière),45.539306918976,-73.59521873295307,7,12,19,19
+bixi_montreal,Métro Monk (Allard / Briand),45.45133291842274,-73.59250903129578,16,6,23,22
+bixi_montreal,Jacques-Le Ber / de la Pointe Nord,45.47259900304475,-73.5398056358099,2,24,27,26
+bixi_montreal,Ste-Famille / des Pins,45.512856179335664,-73.57692807912827,6,17,23,23
+bixi_montreal,Boyer / Rosemont,45.53409866804061,-73.59553456306458,15,14,31,29
+bixi_montreal,Montcalm / de Maisonneuve,45.519131967116216,-73.55788965214742,5,10,15,15
+bixi_montreal,Victoria Hall (Sherbrooke),45.48129146961133,-73.6003303527832,1,14,15,15
+bixi_montreal,de Bordeaux / Rachel,45.53207532297607,-73.56769983980485,3,19,23,22
+bixi_montreal,Everett / Garnier,45.54758153109644,-73.61220851540565,1,21,23,22
+bixi_montreal,de la Commune / Place Jacques-Cartier,45.50761009451047,-73.55183601379395,39,40,81,79
+bixi_montreal,Marché St-Jacques (Atateken),45.520665992418884,-73.5639146839003,24,3,27,27
+bixi_montreal,Notre-Dame-de-Grâce / Décarie,45.477332647079656,-73.61529976129532,7,8,15,15
+bixi_montreal,Bishop / de Maisonneuve,45.49720422766309,-73.5777654405865,20,3,23,23
+bixi_montreal,Gauthier / de Lorimier,45.53166363055749,-73.56536373496056,8,10,19,18
+bixi_montreal,Park Row O / Sherbrooke,45.46072936353252,-73.63407254219055,4,13,19,17
+bixi_montreal,Carrefour Angrignon (Angrignon / Newman),45.44843408492706,-73.6129454523325,4,13,17,17
+bixi_montreal,Métro Radisson (Sherbrooke / des Groseilliers),45.58917500418707,-73.53965610265732,1,17,19,18
+bixi_montreal,de Kent / de la Côte-des-Neiges,45.50144933057703,-73.63305062055588,16,21,39,37
+bixi_montreal,Parc Jarry (Dautry / de Lorne),45.52311386011815,-73.81716683506966,7,19,27,26
+bixi_montreal,du Parc-La Fontaine / Rachel,45.52551168509886,-73.57424452900887,12,0,15,12
+bixi_montreal,Pierre-de-Coubertin / Aird,45.55903106539297,-73.54830354452133,0,31,31,31
+bixi_montreal,Parc Jean-Drapeau (Chemin Macdonald),45.512470265414784,-73.53212228978008,19,15,35,34
+bixi_montreal,Drummond / des-Canadiens-de-Montréal,45.49676067752141,-73.57027635600843,0,27,27,27
+bixi_montreal,de l'Esplanade / Marie-Anne,45.51736129434549,-73.58576595783234,26,6,35,32
+bixi_montreal,La Fontaine / Panet,45.522059017843844,-73.55921662414403,12,7,19,19
+bixi_montreal,La Tour de Montréal (Pierre-de-Coubertin / Bennett),45.55970526805903,-73.55155438184738,14,8,25,22
+bixi_montreal,René-Lévesque / Papineau,45.52097057660443,-73.5499919950962,0,39,39,39
+bixi_montreal,Parc Montcalm (Parkway / Montcalm),45.53498735530518,-73.76111805438995,5,14,19,19
+bixi_montreal,de Gentilly / Roland-Therrien,45.54086016564935,-73.49124181550906,5,16,21,21
+bixi_montreal,Parthenais / Larivière,45.53025954525953,-73.55784621096973,12,19,31,31
+bixi_montreal,de Gaspé / Fairmount,45.52557815939422,-73.59285570681095,0,23,23,23
+bixi_montreal,Ste-Catherine / Dézéry,45.539385081961676,-73.54099988937377,20,6,27,26
+bixi_montreal,Brittany / Ainsley,45.52588991809354,-73.65003436803818,18,4,23,22
+bixi_montreal,Wolfe / Robin,45.51959908817399,-73.56020073872969,12,10,23,22
+bixi_montreal,Beaucourt / Savoie,45.606031397101276,-73.72356981039047,3,20,23,23
+bixi_montreal,du Havre / Hochelaga,45.535839774830706,-73.55793272432493,6,13,19,19
+bixi_montreal,Grand Boulevard / Sherbrooke,45.46659823105616,-73.62334638833998,8,7,15,15
+bixi_montreal,Gare Centrale (de la Gauchetière / Mansfield),45.49982531155875,-73.5660799094876,7,19,27,26
+bixi_montreal,Mackay / Sherbrooke,45.49758647633681,-73.58060002326965,10,25,35,35
+bixi_montreal,Métro Laurier (Berri / St-Joseph),45.52723106564012,-73.58672618865965,0,20,21,20
+bixi_montreal,Métro Verdun (Willibrord / de Verdun),45.45937359425342,-73.57200354337692,3,18,21,21
+bixi_montreal,Ste-Claire / Pierre-Tétreault,45.60191332161639,-73.52441847324371,3,12,15,15
+bixi_montreal,Parc des Orioles (Le Corbusier / des Orioles),45.595548893752266,-73.76128099858761,8,10,19,18
+bixi_montreal,Bibliothèque Jean-Corbeil (Goncourt / Place Montrichard),45.6027276,-73.5579303,5,6,11,11
+bixi_montreal,Parc nature de l'Île-de-la-Visitation (Gouin / Bruchési),45.57833184623925,-73.65595400333405,18,0,19,18
+bixi_montreal,André-Charpentier / René-Philippe,45.49697733174473,-73.4955096244812,21,2,23,23
+bixi_montreal,de l'Hôtel-de-Ville / du Mont-Royal,45.522178004145694,-73.58460858464241,6,13,19,19
+bixi_montreal,Drummond / Sherbrooke,45.500535752214155,-73.578113079202,2,21,23,23
+bixi_montreal,Métro Cartier (des Laurentides),45.56007440937141,-73.68125259876251,10,9,19,19
+bixi_montreal,Cégep du Vieux-Montréal (Ontario / de l'Hôtel-de-Ville),45.51401222645779,-73.56598667800426,11,3,15,14
+bixi_montreal,CHU Ste-Justine (de la Côte Ste-Catherine / Hudson),45.50398168549117,-73.62283945083618,0,33,37,33
+bixi_montreal,Sanguinet / de Maisonneuve,45.51344071816516,-73.56261849403381,5,26,31,31
+bixi_montreal,Desjardins / Ontario,45.55118417872238,-73.54087114334106,8,15,23,23
+bixi_montreal,du Parc-La Fontaine / Roy,45.5231827906644,-73.56890878641934,5,15,23,20
+bixi_montreal,Valois / Ste-Catherine,45.545320836331165,-73.53745266795158,11,11,23,22
+bixi_montreal,Rosemont / Viau,45.56833021674857,-73.56666326522826,5,18,23,23
+bixi_montreal,Robert-Bourassa / St-Maurice,45.49837045828952,-73.56055587530136,0,22,23,22
+bixi_montreal,Alexandre-DeSève / Ontario,45.524378086614014,-73.56054916977882,10,24,35,34
+bixi_montreal,Berri / de Maisonneuve,45.515313505702075,-73.56135049208204,0,15,15,15
+bixi_montreal,Mansfield / Sherbrooke,45.50301533529815,-73.5751303658617,1,21,23,22
+bixi_montreal,Émile-Duployé / Sherbrooke,45.52719536319051,-73.5645255446434,7,15,23,22
+bixi_montreal,de la Côte St-Antoine / Argyle,45.48624101696415,-73.59572768211365,3,14,19,17
+bixi_montreal,Maguire / St-Laurent,45.524628485592636,-73.5958108305931,2,22,26,24
+bixi_montreal,Notre-Dame / St-Martin,45.48830194643546,-73.56871783733366,13,6,19,19
+bixi_montreal,St-André /  Cherrier,45.52050169308784,-73.56770128011703,14,13,27,27
+bixi_montreal,Ste-Catherine / St-Laurent,45.50991130818593,-73.56380604207516,4,27,31,31
+bixi_montreal,Larivière / du Bord-de-l'Eau,45.51793677120121,-73.79407972097397,1,14,15,15
+bixi_montreal,Sewell / Roy,45.51467743947122,-73.57659816741943,4,13,19,17
+bixi_montreal,Parc Labelle (LaSalle / Henri-Duhamel),45.472384197995595,-73.5699999332428,15,4,19,19
+bixi_montreal,de la Commune / McGill,45.498633663212246,-73.55275064706802,30,26,57,56
+bixi_montreal,Plessis / René-Lévesque,45.51937504116866,-73.55190977454185,8,11,19,19
+bixi_montreal,Lamarre / Lavallée,45.53374770433337,-73.48599582910538,16,6,23,22
+bixi_montreal,Laval / Rachel,45.52022449558384,-73.5795271396637,12,11,23,23
+bixi_montreal,Mairie d'arrondissement St-Laurent (Beaudet / Marcel-Laurin),45.50682415585665,-73.68184804916382,8,18,27,26
+bixi_montreal,Édouard-Montpetit / de Stirling,45.50737888711866,-73.61485987901688,6,25,31,31
+bixi_montreal,Jogues / Allard,45.450020323797766,-73.60030621290207,8,10,19,18
+bixi_montreal,de l'Esplanade / Henri-Bourassa,45.547440651237316,-73.6723718047142,10,8,19,18
+bixi_montreal,15e Rue / Robin,45.55937738168307,-73.69850993156433,11,11,23,22
+bixi_montreal,Parc Laurier (Laurier / Dubuc),45.533610547532355,-73.47374618053436,5,13,19,18
+bixi_montreal,St-Jean-Baptiste / René-Lévesque,45.64141535746634,-73.4999567270279,5,10,15,15
+bixi_montreal,Metcalfe / de Maisonneuve (sud),45.501375027330134,-73.5734578129086,0,23,23,23
+bixi_montreal,Alton-Goldbloom / Notre-Dame,45.54502601340392,-73.73787671327591,12,11,23,23
+bixi_montreal,La Fontaine / Alexandre-de-Sève,45.52330366033427,-73.55799973011017,16,1,19,17
+bixi_montreal,du Bas-du-Plateau-Ouimet / Ste-Rose,45.612562909944444,-73.78909885883331,8,11,19,19
+bixi_montreal,St-Ambroise / Louis-Cyr,45.47519326260791,-73.58094334602356,5,22,27,27
+bixi_montreal,Gare Montréal-Ouest (Coffee / Elmhurst),45.45474981766794,-73.64043474197388,13,4,19,17
+bixi_montreal,Parc Ferland (Belleherbe / Albanel),45.59573798024675,-73.59529852867126,8,7,15,15
+bixi_montreal,St-Urbain / Laurier,45.52164617544124,-73.59366774559021,1,15,19,16
+bixi_montreal,Chabot / Villeray,45.552289376429215,-73.61300647258759,8,7,15,15
+bixi_montreal,20e avenue / de Bellechasse,45.55992951142522,-73.5767751932144,2,17,19,19
+bixi_montreal,Centre récréatif Édouard-Rivet (Notre-Dame / Lesage),45.62846158049899,-73.49952153861523,5,10,15,15
+bixi_montreal,de Côme / Jean-Talon,45.58830296569168,-73.57783721439773,4,11,15,15
+bixi_montreal,Métro Sauvé (Berri / Sauvé),45.550692068419764,-73.65636706352234,0,25,29,25
+bixi_montreal,Marquette / Fleury,45.56735205736566,-73.65378744900227,0,14,15,14
+bixi_montreal,Centre ÉPIC (St-Zotique / 40e avenue),45.57414703721992,-73.57462137937546,5,17,23,22
+bixi_montreal,Parc St-Paul (De Champigny / Angers),45.46093583538376,-73.58493447303772,15,4,19,19
+bixi_montreal,Francis / Fleury,45.56387237463668,-73.6555677652359,6,13,19,19
+bixi_montreal,Chabanel / du Parc,45.53830765459552,-73.6548838019371,1,29,30,30
+bixi_montreal,Kirkfield / de Chambois,45.51293324107222,-73.63389015197754,17,8,27,25
+bixi_montreal,Labadie / du Parc,45.5198946757576,-73.59682738780975,6,12,19,18
+bixi_montreal,Garnier / Villeray,45.54948004519436,-73.61605471489383,6,16,22,22
+bixi_montreal,Hôpital Santa Cabrini (de Pontoise / d'Évreux),45.58135403391153,-73.57260999085156,6,5,15,11
+bixi_montreal,Chambord / Gilford,45.53149589691095,-73.58106877662067,11,8,19,19
+bixi_montreal,de Bordeaux / Jean-Talon,45.54975479298636,-73.60556602478027,2,15,19,17
+bixi_montreal,Fullum / Gilford,45.539198007249375,-73.5737818479538,2,20,23,22
+bixi_montreal,Clark / Evans,45.51109876719028,-73.56784343719482,4,15,19,19
+bixi_montreal,Émile-Duployé / Rachel,45.52970707609694,-73.56998120721983,16,8,25,24
+bixi_montreal,O'Brien / Poirier,45.52252484113786,-73.69143962860107,13,9,23,22
+bixi_montreal,Aréna Martin-St-Louis (Sylvie / Lauzon),45.525663894676846,-73.80337625741959,5,15,21,20
+bixi_montreal,St-Jacques / McGill,45.50148016674065,-73.5602888962967,0,31,31,31
+bixi_montreal,St-Joseph / Lamoureux,45.59260312756609,-73.33754654508994,6,8,15,14
+bixi_montreal,Parc Plage,45.50263433100114,-73.52749290572318,3,12,19,15
+bixi_montreal,St-Dominique / Gounod,45.538591573269706,-73.62778007984161,6,16,23,22
+bixi_montreal,Cartier / Dandurand,45.53923559055867,-73.58594566583633,5,17,23,22
+bixi_montreal,Parc St-Laurent (Salk / Thomas-Chapais),45.6062348,-73.6287838,4,15,19,19
+bixi_montreal,de Grosbois / Duchesneau,45.611230741550536,-73.5312415660519,13,10,23,23
+bixi_montreal,Mozart / St-Laurent,45.53328624709234,-73.61546382309369,9,13,23,22
+bixi_montreal,Calixa-Lavallée / Sherbrooke,45.52479,-73.56545,7,12,19,19
+bixi_montreal,Parc Marquette (Nobert / Dollard),45.515388575882525,-73.48005307841959,8,11,21,19
+bixi_montreal,de Maisonneuve / Mansfield (sud),45.502053864057466,-73.57346534729004,0,26,27,26
+bixi_montreal,6e avenue / Villeray,45.55873962047568,-73.60589044634253,0,11,11,11
+bixi_montreal,Jeanne-Mance / St-Martin O,45.55729575447216,-73.74795377254486,7,16,23,23
+bixi_montreal,de Hampton / de Monkland,45.47117930747152,-73.6270022392273,4,10,15,14
+bixi_montreal,Notre-Dame-de-Grâce / Westmount,45.48046706437983,-73.61122308304402,2,11,15,13
+bixi_montreal,St-Cyril / Wiseman,45.52085479492202,-73.61573964357376,2,18,23,20
+bixi_montreal,Parc Eusèbe-Ménard (Gouin / St-Vital),45.59253950875074,-73.64874824881554,4,16,21,20
+bixi_montreal,St-Urbain / de la Gauchetière,45.50707812811467,-73.56139540672302,2,41,43,43
+bixi_montreal,de Rouen / Hogan,45.536285106852986,-73.55447735644702,8,7,15,15
+bixi_montreal,des Érables / Rachel,45.533313304815366,-73.56671154499054,3,16,19,19
+bixi_montreal,Parc Honoré-Mercier (Notre-Dame / Liébert),45.59275253568305,-73.51035632193089,9,18,27,27
+bixi_montreal,Parc Félix-Leclerc (François-Boivin / St-Zotique),45.5914549914687,-73.56275528669356,7,4,15,11
+bixi_montreal,Parc Nicolas-Tillemont (des Érables / Villeray),45.55463653358596,-73.61255215771962,5,12,18,17
+bixi_montreal,du Souvenir / Le Corbusier,45.560429419497616,-73.72659265995026,18,5,23,23
+bixi_montreal,5e avenue / Masson,45.54753589193075,-73.57536166906357,15,9,27,24
+bixi_montreal,Ball / Bloomfield,45.529996997063385,-73.63287091255188,3,5,11,8
+bixi_montreal,Calixa-Lavallée / Rachel (ouest),45.52783105277898,-73.57195928692818,6,31,37,37
+bixi_montreal,du Chardonneret / de la Volière,45.59717019288906,-73.7786663076622,15,8,23,23
+bixi_montreal,Industriel / Dagenais O,45.59784032225573,-73.75115096569061,0,27,27,27
+bixi_montreal,d'Iberville / Fleury,45.575431237891664,-73.64741921424866,14,5,19,19
+bixi_montreal,La Fontaine / Bossuet,45.5692653047045,-73.5261806845665,14,5,19,19
+bixi_montreal,Ouimet / Goineau,45.57504823374693,-73.68799567222595,19,15,35,34
+bixi_montreal,Fairmount / Hutchison,45.51969064184933,-73.59826556408734,8,14,23,22
+bixi_montreal,de Grenoble / de Cassis,45.57889719514108,-73.70492711663245,12,6,19,18
+bixi_montreal,Louis-Hébert / St-Zotique,45.55001,-73.59576,1,13,15,14
+bixi_montreal,Parc Molson (d'Iberville / Beaubien),45.54902230455398,-73.59198164194822,4,13,19,17
+bixi_montreal,St-Charles / Montarville,45.5335557310391,-73.51536766939716,4,14,19,18
+bixi_montreal,Roy / Saint-Laurent,45.51565182195085,-73.57577390039296,1,20,23,21
+bixi_montreal,Monk / Jacques-Hertel,45.459274136278985,-73.59627153731708,5,18,23,23
+bixi_montreal,26e avenue / Beaubien,45.56485589064712,-73.5774926841259,1,14,15,15
+bixi_montreal,St-Dominique / St-Zotique,45.53226461018495,-73.6110632121563,17,12,31,29
+bixi_montreal,de la Côte-Ste-Catherine / Decelles,45.50094101588506,-73.62563699483871,18,0,19,18
+bixi_montreal,de l'Esplanade / Beaubien,45.528399838582324,-73.61192286014557,3,11,15,14
+bixi_montreal,André-Laurendeau / Rachel,45.54303187243879,-73.56256484985352,5,15,23,20
+bixi_montreal,LaSalle / 37e avenue,45.416294661505354,-73.6129005253315,11,8,19,19
+bixi_montreal,Métro Lasalle (de Rushbrooke / Caisse),45.47072659825637,-73.56546904899005,6,24,31,30
+bixi_montreal,Cité des Arts du Cirque (Paul Boutet / des Regrattiers),45.55982621051128,-73.61538398272387,1,31,35,32
+bixi_montreal,Prince-Arthur / du Parc,45.51050104659654,-73.57557892799377,23,9,35,32
+bixi_montreal,Crescent / René-Lévesque,45.49603187552495,-73.5734586417675,5,26,31,31
+bixi_montreal,Louis-Hébert / Bélanger,45.55158518908433,-73.59916493296623,2,17,19,19
+bixi_montreal,Marché Jean-Talon (Henri-Julien / Jean-Talon),45.53678525128436,-73.6148879583925,2,20,23,22
+bixi_montreal,Square Viger (Berri / Viger),45.5121682576952,-73.55481594800949,8,17,29,25
+bixi_montreal,Notre-Dame / St-Henri,45.50019918807319,-73.5600175754007,4,23,27,27
+bixi_montreal,Wilderton  / Van Horne,45.51014162409143,-73.6247518658638,4,21,27,25
+bixi_montreal,Stationnement incitatif de Montarville (de Montarville),45.6011635681891,-73.44999354332685,11,8,19,19
+bixi_montreal,Ottawa / William,45.48972725318433,-73.56406286358833,15,0,15,15
+bixi_montreal,5e avenue / Rosemont,45.54990048023633,-73.58308374881744,1,18,19,19
+bixi_montreal,Earnscliffe / Queen-Mary,45.48184399150666,-73.6303972452879,4,19,23,23
+bixi_montreal,St-Laurent / Joliette,45.52893060032485,-73.51326006931231,10,9,21,19
+bixi_montreal,Pierre-de-Coubertin / de l'Assomption,45.56828959841413,-73.54272289205255,0,23,23,23
+bixi_montreal,Roberval / Roland-Therrien,45.524501987806474,-73.44320437872739,8,7,15,15
+bixi_montreal,St-Zotique / Clark,45.53143760098197,-73.61270070075989,5,8,15,13
+bixi_montreal,de la Montagne / Notre-Dame,45.492913379064625,-73.5646878182888,4,18,23,22
+bixi_montreal,St-André / Laurier,45.529485911283714,-73.58760595321655,2,17,19,19
+bixi_montreal,Parc Charleroi (Alfred / Louis-Francoeur),45.59953472156509,-73.62360253930092,6,9,15,15
+bixi_montreal,Laurier / St-Denis,45.5271540234837,-73.58943924307823,2,32,37,34
+bixi_montreal,St-Laurent / Pl. du Marché,45.50928960913111,-73.56241598725319,4,22,27,26
+bixi_montreal,Louvain / d'Iberville,45.569397158794715,-73.63372097439424,12,2,15,14
+bixi_montreal,Cégep André-Laurendeau (Lapierre),45.43605512104547,-73.60577523708344,0,27,29,27
+bixi_montreal,Métro St-Michel (Shaughnessy / St-Michel),45.55897660298603,-73.59951764345168,2,7,9,9
+bixi_montreal,Métro Joliette  (Hochelaga / Joliette),45.54699194653282,-73.55115339159964,7,22,29,29
+bixi_montreal,Mairie d'arrondissement Montréal-Nord (Hébert / de Charleroi),45.59398503487043,-73.63767206668854,9,12,21,21
+bixi_montreal,de Gaspé / Dante,45.53429782539273,-73.61217230558395,22,1,23,23
+bixi_montreal,Gare d'autocars de Montréal (Berri / Ontario),45.516926210319546,-73.56425732374191,4,6,15,10
+bixi_montreal,Parc St-Claude (7e Avenue / 8e rue),45.56206585263884,-73.69186341762543,10,17,27,27
+bixi_montreal,St-Hubert / Laurier,45.52893724049854,-73.58786880970001,0,19,19,19
+bixi_montreal,Mairie d'arrondissement LaSalle (Dupras / Jeannette),45.429166968311485,-73.66280972957611,8,7,15,15
+bixi_montreal,Le Corbusier / St-Martin O,45.565006717407506,-73.7319054454565,14,5,19,19
+bixi_montreal,de Bullion / Laurier,45.524530273223355,-73.59137918807392,4,14,19,18
+bixi_montreal,de la Renaissance / Honoré Mercier,45.601841286305586,-73.78161573011312,11,8,19,19
+bixi_montreal,de Chateaubriand / Jarry,45.54588672296563,-73.62673670053482,0,14,15,14
+bixi_montreal,Hôpital Sacré-Coeur (Forbes),45.531943590076395,-73.71360540390015,0,13,13,13
+bixi_montreal,St-Dominique / Napoléon,45.51666442219882,-73.57722043991089,18,5,23,23
+bixi_montreal,Métro Beaudry (Beaudry / Ste-Catherine),45.51888453178292,-73.55593845248222,5,17,23,22
+bixi_montreal,de Darlington / Van Horne,45.50780882672672,-73.62530254282319,8,15,23,23
+bixi_montreal,Gloria / Dollard,45.42971096449354,-73.633883446455,7,8,15,15
+bixi_montreal,Mozart / Drolet,45.536325056800145,-73.61286163330078,7,7,15,14
+bixi_montreal,de la Côte-St-Antoine / Royal,45.468926984877434,-73.6198702454567,1,18,19,19
+bixi_montreal,Peel / Ottawa,45.49419955357054,-73.55998456478119,3,21,27,24
+bixi_montreal,Clark / St-Viateur,45.5251943015533,-73.59935637563467,1,13,15,14
+bixi_montreal,Bloomfield / Van Horne,45.52269103555241,-73.6132076382637,6,15,23,21
+bixi_montreal,La Fontaine / Lyall,45.57943760505458,-73.5196280479431,9,9,19,18
+bixi_montreal,de Bellechasse / de St-Vallier,45.53341043363302,-73.60112428665161,2,17,19,19
+bixi_montreal,Panet / de Maisonneuve,45.52056694976339,-73.55609618582093,6,17,23,23
+bixi_montreal,Aylwin / Ontario,45.544290485374304,-73.54523241519928,16,11,27,27
+bixi_montreal,Hodge / Laperrière,45.51369983907863,-73.6650772206849,1,16,19,17
+bixi_montreal,Regina / de Verdun,45.46734390596128,-73.57078850269318,10,8,19,18
+bixi_montreal,Fortune / Wellington,45.477817318048714,-73.55884194374084,13,14,27,27
+bixi_montreal,University / des Pins,45.50802525900976,-73.57988489795387,18,13,31,31
+bixi_montreal,Lartigue / du Souvenir,45.56342245139952,-73.71804714202881,5,21,27,26
+bixi_montreal,des Érables / Laurier,45.538514913607656,-73.57769921422005,6,13,19,19
+bixi_montreal,Industriel / Louis-J.-Lafortune,45.5818630642485,-73.45524966716766,5,6,11,11
+bixi_montreal,Laird / Glencoe,45.50619158460727,-73.64230799681536,13,6,19,19
+bixi_montreal,Prince-Albert / St-Jean-Baptiste,45.640138058064,-73.4923571348736,8,5,15,13
+bixi_montreal,de la Côte-des-Neiges / Remembrance,45.495506015418115,-73.60577141979775,3,8,13,11
+bixi_montreal,de Maisonneuve / Mansfield (sud-est),45.50229349416256,-73.5733064264059,6,14,23,20
+bixi_montreal,Notre-Dame / St-Gabriel,45.50714391928411,-73.55511903762817,1,14,15,15
+bixi_montreal,Métro Crémazie (Crémazie / Lajeunesse),45.54640752148169,-73.63842844963074,2,11,15,13
+bixi_montreal,de Gaspé / Villeray,45.53888723230076,-73.62390697002411,8,10,19,18
+bixi_montreal,Parc Reine-Élizabeth (Penniston / Crawford),45.43914465255811,-73.59173655509949,11,3,15,14
+bixi_montreal,Viger / Chenneville,45.50531166520915,-73.56089115142822,14,23,37,37
+bixi_montreal,Wolfe / René-Lévesque,45.51680261228575,-73.55416085578327,9,17,27,26
+bixi_montreal,Charles / Grand Boulevard,45.491970683715415,-73.47183232519455,9,10,19,19
+bixi_montreal,Garnier / St-Grégoire,45.5358215436799,-73.58710169792175,6,16,23,22
+bixi_montreal,22e avenue / Everett,45.56703834271867,-73.59426856040955,1,15,19,16
+bixi_montreal,de la Commune / Berri,45.51086,-73.54983,20,48,71,68
+bixi_montreal,Hutchison / Beaubien,45.526074234750496,-73.61313624311151,0,28,28,28
+bixi_montreal,Union / René-Lévesque,45.50235036136798,-73.56658279895781,0,27,27,27
+bixi_montreal,Sherbrooke / Benny,45.46489980721603,-73.62700089812279,6,13,19,19
+bixi_montreal,de Gaspé / Beaubien,45.531957916826386,-73.60700100660324,10,6,19,16
+bixi_montreal,Métro Place-des-Arts (du Président-Kennedy / Jeanne-Mance),45.508204615051355,-73.56881439685822,7,20,27,27
+bixi_montreal,Juliette / Lise,45.43392910987164,-73.63002508878708,3,13,19,16
+bixi_montreal,Métro Henri-Bourassa (Henri-Bourassa / Millen),45.55675103297278,-73.66716161370277,2,14,16,16
+bixi_montreal,de Chambly / Rachel,45.54991069359101,-73.55826258659361,1,22,23,23
+bixi_montreal,Atwater / Sherbrooke,45.4912258547597,-73.58763009309769,10,13,23,23
+bixi_montreal,des Érables / Bélanger,45.54912085535069,-73.60087350010872,5,10,15,15
+bixi_montreal,de Gaspé / St-Viateur,45.527672646696104,-73.59738260507582,2,21,23,23
+bixi_montreal,Léon / Donck,45.55688821156085,-73.6895003914833,12,7,19,19
+bixi_montreal,Union / Ste-Catherine,45.504027213143104,-73.56970220804214,2,44,47,46
+bixi_montreal,de Lanaudière / Laurier,45.5333136054992,-73.58373686671257,24,1,27,25
+bixi_montreal,St-Jacques / Vinet,45.485328993998365,-73.57692271471024,6,8,15,14
+bixi_montreal,Keller / Cousineau,45.52355020292929,-73.7138856947422,2,13,15,15
+bixi_montreal,des Pins / Hutchison,45.51077694102021,-73.57825007289647,20,2,23,22
+bixi_montreal,de Bordeaux / de Bellechasse,45.54325917626278,-73.59154611825943,5,12,19,17
+bixi_montreal,de Bordeaux / Sherbrooke,45.529817997585944,-73.56293704368,5,13,19,18
+bixi_montreal,Saint-Rémi / Valois,45.583961790351886,-73.72082591056824,8,15,23,23
+bixi_montreal,4e avenue / de Verdun,45.45686162938348,-73.57212341392369,2,13,15,15
+bixi_montreal,de Lanaudière / Marie-Anne,45.52932643090091,-73.57480645179749,16,3,19,19
+bixi_montreal,Clark / de l'Arcade,45.527371996141,-73.60398352146149,13,4,19,17
+bixi_montreal,Bourget / St-Jacques,45.48067368593179,-73.58351558446884,4,10,15,14
+bixi_montreal,Parc Bariteau (Saint-Georges),45.507181850364056,-73.49484494889111,11,3,15,14
+bixi_montreal,Cartier / Rosemont,45.54124722370603,-73.59104454517365,4,14,19,18
+bixi_montreal,de Bordeaux / du Mont-Royal,45.53451201270128,-73.57283771038055,17,5,23,22
+bixi_montreal,Métro Sherbrooke (de Rigaud / Berri),45.51814312154928,-73.56800436973572,1,25,27,26
+bixi_montreal,Lionel-Groulx / Georges-Vanier,45.48636589009339,-73.57352435588837,2,17,19,19
+bixi_montreal,de la Concorde / Le Corbusier,45.55443463102357,-73.7218625843525,21,5,26,26
+bixi_montreal,André / de Rotterdam,45.595149047616815,-73.72775673866272,5,26,31,31
+bixi_montreal,Métro Langelier (Langelier / Sherbrooke),45.58284663189181,-73.54247644543648,1,17,19,18
+bixi_montreal,du Marché Central / Crémazie,45.53341740599902,-73.64888370037079,3,12,15,15
+bixi_montreal,Ontario / Ville-Marie,45.56001959585449,-73.534934520776,14,5,19,19
+bixi_montreal,de Bordeaux / St-Joseph,45.53683253167888,-73.57777421686478,8,10,19,18
+bixi_montreal,12e avenue / St-Zotique,45.5568667309625,-73.589306473732,3,19,23,22
+bixi_montreal,Berri / Laurier,45.52809995527671,-73.58843871625139,1,18,19,19
+bixi_montreal,Ste-Catherine / Drummond,45.498488900657,-73.57436656951904,2,17,19,19
+bixi_montreal,Alexandre-de-Sève / Ste-Catherine,45.5211897037242,-73.55379804968834,6,17,23,23
+bixi_montreal,Molson / Beaubien,45.54977750895228,-73.59132108093945,2,20,23,22
+bixi_montreal,St-Antoine / 19e avenue,45.43993803436114,-73.68146234754022,6,9,15,15
+bixi_montreal,Berri / Gilford,45.52677632748293,-73.58606100082396,2,20,23,22
+bixi_montreal,Lucien-L'Allier / St-Jacques,45.493527268121085,-73.56851667165755,6,17,23,23
+bixi_montreal,Fullum / Sherbrooke,45.53378566312351,-73.56228053569794,4,35,39,39
+bixi_montreal,La Ronde,45.52156536710626,-73.53533238172531,14,9,23,23
+bixi_montreal,Henri-Julien / du Carmel,45.52795093787009,-73.59502326697111,1,20,23,21
+bixi_montreal,Marché Atwater,45.48020822800015,-73.57759863138199,8,24,32,32
+bixi_montreal,Parc Noel-Nord (Toupin / Keller),45.51758306374252,-73.72661411762238,14,3,19,17
+bixi_montreal,Place Ville-Marie (Robert-Bourassa / René-Lévesque),45.502182909901194,-73.56825381517409,0,32,33,32
+bixi_montreal,Gauthier / Parthenais,45.53292625574653,-73.56377989053726,1,14,15,15
+bixi_montreal,de l'Esplanade / Villeneuve,45.51943184213857,-73.59095953859651,19,0,19,19
+bixi_montreal,St-Cuthbert / Clark,45.51567168354896,-73.57744306325912,12,6,19,18
+bixi_montreal,Hélène-Baillargeon / St-Denis,45.52974,-73.59527,3,15,19,18
+bixi_montreal,McTavish / Sherbrooke,45.50277615861811,-73.57589408755302,47,7,54,54
+bixi_montreal,Victoria / 18e avenue Lachine,45.43579350588776,-73.6801904439926,12,2,15,14
+bixi_montreal,Hôpital Maisonneuve-Rosemont (Rosemont / Chatelain),45.57556589690592,-73.56098317064607,2,33,35,35
+bixi_montreal,McLynn / Plamondon,45.48911308766352,-73.6470128595829,8,11,19,19
+bixi_montreal,Renaud / Vallières,45.5822554080961,-73.71333315968513,11,12,23,23
+bixi_montreal,Fabre / St-Zotique,45.543653916207866,-73.60126135876271,7,10,19,17
+bixi_montreal,Shearer / Centre,45.4828250990486,-73.56206325352105,3,16,19,19
+bixi_montreal,Gare LaSalle (Highlands),45.425612687757926,-73.65713578464238,3,16,19,19
+bixi_montreal,St-Henri / St-Maurice,45.49980867018228,-73.55891436338425,18,9,27,27
+bixi_montreal,Parc Père-Vimont (de Palerme / Marc),45.61727184162768,-73.7326980382204,6,8,15,14
+bixi_montreal,de Maisonneuve / Mansfield (nord),45.502386079583346,-73.57333794236183,1,18,19,19
+bixi_montreal,de la Côte-Ste-Catherine / Davaar,45.51416245548193,-73.61105918884276,6,3,11,9
+bixi_montreal,Wellington / Queen,45.49770377469073,-73.55534417554736,0,19,21,19
+bixi_montreal,du Champ-de-Mars / Gosford,45.50965520472071,-73.55400860309601,2,21,23,23
+bixi_montreal,de l'Hôtel-de-Ville / Villeneuve,45.52348082760688,-73.58732756238169,8,14,23,22
+bixi_montreal,Casino de Montréal,45.5063732,-73.52457672,6,27,34,33
+bixi_montreal,Marie-Anne / de la Roche,45.527550507601894,-73.5762870311737,13,6,19,19
+bixi_montreal,Molson / William-Tremblay,45.541602844435374,-73.56496073305605,0,29,29,29
+bixi_montreal,Coloniale / Duluth,45.51786873150825,-73.57842743396758,12,11,23,23
+bixi_montreal,Gare St-Michel / Montréal-Nord (Pie-IX / 56e),45.583197821913785,-73.62978704273701,11,4,15,15
+bixi_montreal,Métro Jarry (Lajeunesse / Jarry),45.54355974189168,-73.62777203321457,2,21,23,23
+bixi_montreal,Elmwood / Mc Dougall,45.51778642010814,-73.60364019870758,10,2,15,12
+bixi_montreal,Fullum / de Rouen,45.53225536243612,-73.55892024004788,9,17,27,26
+bixi_montreal,Aylmer / Sherbrooke,45.50629456823703,-73.57282698154448,0,24,27,24
+bixi_montreal,Harvard / de Monkland,45.474565185029945,-73.62403571605682,5,18,23,23
+bixi_montreal,29e avenue / de Bellechasse,45.56541782500086,-73.57231065630913,3,14,19,17
+bixi_montreal,Marquette / Laurier,45.53543,-73.5822,4,27,31,31
+bixi_montreal,Principale / Jean-Duceppe,45.587907229193526,-73.34771825004282,11,8,19,19
+bixi_montreal,Le Ber / Ste-Madeleine,45.480416979305645,-73.55316370725632,16,7,23,23
+bixi_montreal,Pierre-Péladeau / du Centropolis,45.56251175219665,-73.74370649456978,12,15,27,27
+bixi_montreal,de Naples / St-Elzéar O,45.60026798457808,-73.73215019702911,10,20,30,30
+bixi_montreal,Parc J.-Arthur-Champagne (de Chambly / du Mont-Royal),45.551584,-73.561916,2,14,19,16
+bixi_montreal,CHSLD Robert Cliche (de Bellechasse / 16e avenue),45.557568,-73.579191,3,9,15,12
+bixi_montreal,Métro Papineau (Dorion / De Maisonneuve),45.5238445756922,-73.55236601831166,5,26,32,31
+bixi_montreal,Bertin / Eliot,45.5398044346885,-73.77615720033646,11,12,23,23
+bixi_montreal,Souligny / Desmarteau,45.60444089974122,-73.51611837744713,14,1,15,15
+bixi_montreal,William / Robert-Bourassa,45.49716534003792,-73.55933010578154,2,19,21,21
+bixi_montreal,Mozart / Waverly,45.5315236502754,-73.61701235175133,3,9,15,12
+bixi_montreal,Newman / Léger,45.4423746754694,-73.61801972726425,1,20,21,21
+bixi_montreal,14e avenue / Jean-Talon,45.56132407262574,-73.59629362821578,3,12,15,15
+bixi_montreal,de Mortagne / Jean-Neveu,45.56923752103412,-73.44949901103973,5,12,19,17
+bixi_montreal,Sherbrooke / Jeanne-d'Arc,45.55398156058887,-73.55496388156098,2,23,27,25
+bixi_montreal,Logan / Tiffin,45.513787364296896,-73.50874415600629,9,6,15,15
+bixi_montreal,Jean Langlois / Fullum,45.526499983000186,-73.54575277422555,3,28,31,31
+bixi_montreal,Parc Hector-Toe-Blake (du Sussex / René-Lévesque),45.48915410275294,-73.58088755610879,3,14,17,17
+bixi_montreal,Métro Montmorency (de l'Avenir),45.55814299291968,-73.71942043304443,10,13,23,23
+bixi_montreal,des Pins / St-Laurent,45.51522812881499,-73.5750961303711,22,9,31,31
+bixi_montreal,Parc St-Laurent (Dutrisac),45.52591381815231,-73.68911147117615,8,9,19,17
+bixi_montreal,de St-Firmin / Fleury,45.570624722078364,-73.6517858505249,5,10,15,15
+bixi_montreal,Henri-Julien / de Bellechasse,45.531573441959296,-73.60318958759308,7,12,19,19
+bixi_montreal,Ann / Wellington,45.494520387544334,-73.55676591396332,10,5,15,15
+bixi_montreal,Fernand-Lafontaine / Adoncour,45.5512193,-73.483912,3,12,15,15
+bixi_montreal,Logan / Poupart,45.5300499902393,-73.54950785636902,22,1,23,23
+bixi_montreal,Parc de Turin (de Lanaudière / Jean-Talon),45.545350334193245,-73.61032962799072,1,21,23,22
+bixi_montreal,Parc d'Antioche (Place d'Antioche / St-Zotique),45.59566584124368,-73.5596626996994,6,13,19,19
+bixi_montreal,St-Dominique / St-Viateur,45.52649960463402,-73.59812762595539,0,31,31,31
+bixi_montreal,de la Commune / Nazareth,45.49355658424554,-73.55335976463721,1,16,19,17
+bixi_montreal,Christophe-Colomb / Beaubien,45.53783932655299,-73.60115647315979,4,12,19,16
+bixi_montreal,Aréna Rodrigue-Gilbert (du Tricentenaire / de Montigny),45.65140583915357,-73.50041270256041,11,4,15,15
+bixi_montreal,McCulloch / de la Côte Ste-Catherine,45.51577505385328,-73.60060930252075,4,15,19,19
+bixi_montreal,Parc des Hirondelles (Bousquet / Patenaude),45.57682711569213,-73.69446247816086,9,14,23,23
+bixi_montreal,des Ormeaux / Mathieu,45.51997865133178,-73.45667577350468,5,14,19,19
+bixi_montreal,Grey / Sherbrooke,45.47651075689498,-73.60647261142731,15,5,21,20
+bixi_montreal,St-Dominique / Laurier,45.52361490311454,-73.59245739877223,3,19,22,22
+bixi_montreal,Rousselot / Jarry,45.55081979211847,-73.62088680267334,1,13,15,14
+bixi_montreal,Turgeon / Notre-Dame,45.478888528072076,-73.58198940753937,2,17,19,19
+bixi_montreal,University / Milton,45.5065386376248,-73.5766088962555,17,22,39,39
+bixi_montreal,St-André / Ontario,45.51889,-73.56353,18,0,19,18
+bixi_montreal,d'Outremont / Ogilvy,45.526870027508245,-73.62676186490717,1,18,19,19
+bixi_montreal,1ère avenue / Jean-Talon,45.55490679722509,-73.60114574432373,1,12,15,13
+bixi_montreal,d'Orléans / Masson,45.557192,-73.569847,0,19,19,19
+bixi_montreal,Argyle / Bannantyne,45.453318765468914,-73.5767751932144,3,19,23,22
+bixi_montreal,Marie-Anne / St-Hubert,45.5246829812827,-73.5788968205452,13,7,23,20
+bixi_montreal,Graham / Brookfield,45.52022241072457,-73.62985610961914,6,17,23,23
+bixi_montreal,Bibliothèque de Verdun (Brown / Bannantyne),45.44878841549165,-73.57767310000781,15,4,19,19
+bixi_montreal,de Maisonneuve / Fullum,45.52797141659334,-73.54948371648788,7,10,17,17
+bixi_montreal,Parc Joyce (Rockland / Lajoie),45.515617,-73.614991,1,13,15,14
+bixi_montreal,16e avenue / St-Joseph,45.55293611277267,-73.56577143073082,14,8,23,22
+bixi_montreal,Mackay / de Maisonneuve,45.49663515504026,-73.57863664627075,18,13,31,31
+bixi_montreal,Roland-Therrien / Louise,45.53696452713042,-73.46983654428186,12,7,19,19
+bixi_montreal,Bibliothèque et Complexe aquatique Rosemont (8e avenue / Rosemont),45.551574858642525,-73.58225226402283,5,14,19,19
+bixi_montreal,de la Sorbonne / du Rousillon,45.58059177772443,-73.6887601017952,4,19,23,23
+bixi_montreal,Dollard / Bernard,45.51678269880724,-73.61142262816429,0,23,23,23
+bixi_montreal,Monsabré / Boileau,45.57175879648152,-73.54176163673401,8,5,15,13
+bixi_montreal,Marché Maisonneuve (Ontario / Morgan),45.55321884238814,-73.53978216648102,17,4,22,21
+bixi_montreal,Parc des Rapides (LaSalle / 6e avenue),45.42947143740888,-73.59309915918857,10,12,23,22
+bixi_montreal,Place Rodolphe-Rousseau (Gohier / Édouard-Laurin),45.5129938566323,-73.68249848484993,15,10,25,25
+bixi_montreal,de St-Vallier / Rosemont,45.531921043052655,-73.59804779291153,1,22,23,23
+bixi_montreal,Gilford / Papineau,45.5343936461316,-73.57823699712753,2,15,19,17
+bixi_montreal,Parc Lacharité (Latour / Forget),45.41773748108526,-73.62338548639853,8,11,19,19
+bixi_montreal,Milton / Durocher,45.508140959417744,-73.57492983341217,4,23,27,27
+bixi_montreal,Parc Maisonneuve (Viau / Sherbrooke),45.56493679334249,-73.5555911064148,6,16,23,22
+bixi_montreal,Bel-Air / St-Antoine,45.4824297233159,-73.58367975812143,5,10,15,15
+bixi_montreal,Greene / Workman,45.481069047931975,-73.57935216285114,10,12,23,22
+bixi_montreal,McKenna / Édouard-Montpetit,45.50116436275711,-73.62056359648705,6,11,19,17
+bixi_montreal,Clark / Prince-Arthur,45.513342512307055,-73.57301607728004,1,30,31,31
+bixi_montreal,Hochelaga / de l'Assomption,45.566883091095185,-73.53943817317486,3,20,23,23
+bixi_montreal,Parc Dan-Hanganu (Elgar / de l'Île-des-Sœurs),45.45682318753668,-73.546804189682,7,7,14,14
+bixi_montreal,Messier / Rachel,45.53451813633701,-73.56532464451448,2,24,27,26
+bixi_montreal,des Récollets / McGill,45.500890568811926,-73.55904474863564,1,21,23,22
+bixi_montreal,Brébeuf / Curé-Poirier,45.52688330834135,-73.48339325750203,6,13,19,19
+bixi_montreal,29e avenue / St-Zotique,45.56776565172907,-73.57968807220459,1,13,15,14
+bixi_montreal,Métro Peel (de Maisonneuve / Stanley),45.50038,-73.57507,18,29,49,47
+bixi_montreal,Fabre / Laurier,45.53458691154375,-73.58259929347696,22,1,23,23
+bixi_montreal,City Councillors / du President-Kennedy,45.50625103256782,-73.57139065861702,8,21,31,29
+bixi_montreal,Metcalfe / de Maisonneuve,45.50177034353527,-73.57427495998309,12,15,27,27
+bixi_montreal,Léa-Roback / Sir-Georges-Etienne-Cartier,45.471703687608354,-73.58268946409225,10,24,35,34
+bixi_montreal,Robert-Bourassa / Ste-Catherine,45.50325409319902,-73.57002343989733,0,39,39,39
+bixi_montreal,Fullum / Marie-Anne,45.53650541861215,-73.56803923845291,4,23,27,27
+bixi_montreal,Marquette / du Mont-Royal (sud),45.53207722797955,-73.57514306902884,21,2,23,23
+bixi_montreal,Beauregard / le Carrefour,45.5582728124786,-73.76468136906624,10,12,23,22
+bixi_montreal,Péloquin / Fleury,45.5570628731705,-73.65995585918427,8,5,14,13
+bixi_montreal,Mackenzie / Westbury,45.494245004327375,-73.64714767791156,12,7,19,19
+bixi_montreal,Durocher / Sherbrooke,45.507088290505685,-73.57227981090546,1,22,23,23
+bixi_montreal,Parc du Pélican (1ère avenue / Masson),45.54518840394769,-73.57644259929657,4,33,39,37
+bixi_montreal,Moïse-Picard / du Mont-Royal,45.550348721495894,-73.56336951255798,4,19,23,23
+bixi_montreal,Ste-Hélène / Papineau,45.50908583699481,-73.47197483760283,2,16,19,18
+bixi_montreal,Métro de Castelnau (de Castelnau / St-Laurent),45.53552563367942,-73.61981123685837,1,21,23,22
+bixi_montreal,Métro Atwater (Atwater / Ste-Catherine),45.48948092966191,-73.58455628156662,9,33,43,42
+bixi_montreal,Clark / Fleury,45.54758205939525,-73.66522908210754,2,15,19,17
+bixi_montreal,Victoria / de Maisonneuve,45.47742856483265,-73.60016942024231,8,6,15,14
+bixi_montreal,Graham / Kindersley,45.514080696641386,-73.64694982767105,6,5,11,11
+bixi_montreal,Métro Côte-Ste-Catherine (Beaucourt / de la Côte-Ste-Catherine),45.491513,-73.633649,13,9,23,22
+bixi_montreal,Collège de Rosemont (Beaubien / 15e avenue),45.55774990838239,-73.58380123972893,3,19,26,22
+bixi_montreal,St-Dominique / Duluth,45.51742143528529,-73.5788244009018,2,12,15,14
+bixi_montreal,du Mont-Royal / Clark,45.51941,-73.58685,13,22,39,35
+bixi_montreal,Place Valois (Valois / Ontario),45.54701750084233,-73.543126247896,7,13,20,20
+bixi_montreal,Lebrun / Bédard,45.5470644513283,-73.45196210302673,15,0,15,15
+bixi_montreal,Desaulniers / Marquette,45.524680035316116,-73.51046747529834,1,17,21,18
+bixi_montreal,Roy / St-André,45.52161742271569,-73.57037329677041,10,10,23,20
+bixi_montreal,Montmorency / Legrand,45.55417055722411,-73.70931923389435,16,14,31,30
+bixi_montreal,Smith / Peel,45.49276061084002,-73.55641052126883,5,22,27,27
+bixi_montreal,Lincoln / du Fort,45.49306511863136,-73.58382672071457,1,18,19,19
+bixi_montreal,de la Porte de Québec / St-André,45.5132941,-73.5505781,11,12,23,23
+bixi_montreal,Cégep Marie-Victorin,45.617499783128075,-73.60601127147675,5,5,11,10
+bixi_montreal,Villeneuve / St-Dominique,45.522272664526696,-73.58870131898584,14,8,23,22
+bixi_montreal,Place du Commerce,45.46714,-73.54259,11,19,33,30
+bixi_montreal,McNamara / St-Martin O,45.57120355585774,-73.72351884841918,14,12,27,26
+bixi_montreal,Tolhurst / Fleury,45.54407915308118,-73.66735741496086,2,17,19,19
+bixi_montreal,Curé-Poirier / Joliette,45.520341697849844,-73.48791999746027,3,28,31,31
+bixi_montreal,Quai Yvon-Julien (Marie-Victorin / de Montarville),45.606718042243784,-73.45692034810781,11,10,21,21
+bixi_montreal,Parc Gabriel-Sagard (Louis-Hémon / Jean-Talon),45.551736388969815,-73.60338270664215,3,18,23,21
+bixi_montreal,Édouard-Montpetit / Victoria,45.491172162374106,-73.62996836556704,1,16,19,17
+bixi_montreal,Egan / Laurendeau,45.45290792768395,-73.58918591405198,6,8,15,14
+bixi_montreal,Frontenac / Ste-Catherine,45.53006276144042,-73.54559183120728,8,10,19,18
+bixi_montreal,Métro Bonaventure (de la Gauchetière / Mansfield),45.49884749025835,-73.56685843325977,2,28,31,30
+bixi_montreal,Melville / de Maisonneuve,45.48184019359366,-73.59537899494171,1,14,15,15
+bixi_montreal,Parc Fernand-Bouffard (Duvernay / Bertrand),45.522383187270094,-73.50178784692616,7,14,21,21
+bixi_montreal,Liébert / Hochelaga,45.59587457490178,-73.52352797985077,9,10,19,19
+bixi_montreal,Dorion / Ontario,45.526991277453526,-73.55821162462234,21,14,35,35
+bixi_montreal,Complexe sportif Claude-Robillard (Émile-Journault),45.55358456339093,-73.6383855342865,18,4,23,22
+bixi_montreal,Pratt / Bates,45.51694782364431,-73.62631559371948,13,5,19,18
+bixi_montreal,de l'Hôtel-de-Ville / Sherbrooke,45.514524730294404,-73.56835573911665,0,26,27,26
+bixi_montreal,Marquette / des Carrières,45.53859456744162,-73.58865737915039,3,23,27,26
+bixi_montreal,Ryde / Charlevoix,45.4757434,-73.5646007,19,8,27,27
+bixi_montreal,St-Mathieu / Lincoln,45.49498578930944,-73.58126726008777,8,23,31,31
+bixi_montreal,de Mentana / du Mont-Royal,45.52694544540877,-73.58005285263062,1,25,27,26
+bixi_montreal,Parc Henri-Julien (Legendre / Henri-Julien),45.546128338386644,-73.64650368695946,0,16,19,16
+bixi_montreal,Aréna Chaumont (Chaumont / des Ormeaux),45.610926628992026,-73.54673445224762,4,14,19,18
+bixi_montreal,Jean-Rivard / du Cirque,45.56268743796862,-73.61651211977005,5,17,23,22
+bixi_montreal,de Rouen / Lespérance,45.538859462962286,-73.5528177022934,4,18,23,22
+bixi_montreal,de Bordeaux / St-Zotique,45.546534315701145,-73.59866335988045,13,10,23,23
+bixi_montreal,Beaubien / 8e avenue,45.55331997202561,-73.58763143420218,9,4,15,13
+bixi_montreal,Messier / du Mont-Royal,45.53711414,-73.5710031,20,14,35,34
+bixi_montreal,Papineau / Émile-Journault,45.55991753389444,-73.63352854128607,7,15,23,22
+bixi_montreal,Ste-Catherine / Bishop,45.49658063218649,-73.5762146115303,4,14,19,18
+bixi_montreal,Parc Grovehill (St-Antoine / Ivan-Franko),45.43982382100397,-73.69487822055817,8,7,15,15
+bixi_montreal,Métro Cadillac (Cadillac / Sherbrooke),45.57698149405437,-73.54707982398394,4,14,19,18
+bixi_montreal,Parc de Beauséjour (Gouin / Henri-d'Arles),45.526765,-73.730423,7,11,19,18
+bixi_montreal,Stationnement incitatif de Mortagne (Ampère),45.57251733677832,-73.44312071800232,10,13,23,23
+bixi_montreal,Métro Lucien-L'Allier (Lucien l'Allier / Argyle),45.49487159597493,-73.57112377882004,6,11,17,17
+bixi_montreal,St-Alexandre / Ste-Catherine,45.50527354034462,-73.5674786567688,0,0,27,0
+bixi_montreal,Grand Boulevard / de Terrebonne,45.470535000953966,-73.63165721297264,15,8,23,23
+bixi_montreal,de Brébeuf / du Mont-Royal,45.52927546284818,-73.57793927192688,18,2,23,20
+bixi_montreal,2e avenue / Centrale,45.43289463113104,-73.59685689210892,13,2,15,15
+bixi_montreal,Ste-Rose E / Soubirous,45.62975097876725,-73.7542650103569,5,26,31,31
+bixi_montreal,Dorion / Ste-Catherine,45.523601337663216,-73.55125665664673,1,15,19,16
+bixi_montreal,Clanranald / de la Côte-St-Luc,45.47900836315578,-73.62692713737488,18,5,23,23
+bixi_montreal,Curé-Labelle / 77e Avenue,45.5381776861757,-73.73784855008125,6,12,19,18
+bixi_montreal,Duvernay / Charlevoix,45.482097305112845,-73.57487753033638,8,11,19,19
+bixi_montreal,Hamel / Sauriol,45.56157008176612,-73.65338176488876,6,9,15,15
+bixi_montreal,St-Patrick / Briand,45.46366064035559,-73.59586715698242,4,13,17,17
+bixi_montreal,Terminus Ste-Julie (Armand-Frappier),45.58231159807488,-73.32433423960538,4,9,17,13
+bixi_montreal,Ste-Émilie / Sir-Georges-Etienne-Cartier,45.47302318351006,-73.58503722109162,15,3,19,18
+bixi_montreal,de l'Esplanade / Bernard,45.525077192606524,-73.60463630408049,0,18,19,18
+bixi_montreal,Émile-Journault / Berri,45.54686210091348,-73.6423847079277,6,8,15,14
+bixi_montreal,Jean-Talon / de l'Épée,45.527941351769826,-73.62388551235199,0,14,15,14
+bixi_montreal,Marie / de Mont-Royal,45.497292117993744,-73.48374999130101,8,12,21,20
+bixi_montreal,Ste-Catherine / St-Mathieu,45.49384690142783,-73.57917845249176,17,13,31,30
+bixi_montreal,Jeanne-Mance / Sherbrooke,45.50934693918775,-73.57122302055359,2,19,21,21
+bixi_montreal,Métro de la Savane (Décarie / de Sorel),45.500251758943925,-73.66171056035454,2,15,19,17
+bixi_montreal,Parc du Mail (Bois de Coulonges / du Mail),45.59833498124187,-73.54596734046936,4,11,15,15
+bixi_montreal,Duke / Nazareth,45.49572236030835,-73.55461344122887,0,19,19,19
+bixi_montreal,Préfontaine / Marcel-Pépin,45.54365380040509,-73.55942063033581,0,17,19,17
+bixi_montreal,Holt / Fullum,45.543937325185645,-73.58444631099701,2,24,28,26
+bixi_montreal,Métro Honoré-Beaugrand (Sherbrooke / Honoré-Beaugrand),45.59685627935051,-73.53526366878214,3,18,23,21
+bixi_montreal,Bishop / Ste-Catherine,45.49657875208714,-73.5765016078949,17,6,23,23
+bixi_montreal,Chambord / Fleury,45.55980855744645,-73.65836128592491,10,9,19,19
+bixi_montreal,Square du Petit-Prince (des Appalaches / Alexis-Nihon),45.51431824920811,-73.70799824595451,4,10,15,14
+bixi_montreal,de Mortagne / de Montarville,45.59147977279279,-73.43605846166611,5,14,19,19
+bixi_montreal,J J Joubert / Champfleury,45.57822671353744,-73.67531418800354,4,19,23,23
+bixi_montreal,Parc Chopin (Dumouchel / Tessier),45.570726609302966,-73.7370860205192,7,12,19,19
+bixi_montreal,Chomedey / de Maisonneuve,45.491750449903954,-73.58394473791122,11,15,27,26
+bixi_montreal,Place Charles-Le Moyne (St-Charles),45.52504512475178,-73.51951967460082,22,4,27,26
+bixi_montreal,Parc Marlborough (Beauzèle / Robichaud),45.52234149817879,-73.72167885303497,8,7,15,15
+bixi_montreal,Parc Sauvé (Balzac / de Bayonne),45.598880374710674,-73.63657951360437,5,10,15,15
+bixi_montreal,3e avenue / Wellington,45.457304311219616,-73.56723271765077,12,7,19,19
+bixi_montreal,de Kent / Hudson,45.5058412398175,-73.62931698560715,1,26,27,27
+bixi_montreal,de St-Firmin / Sauvé,45.568162257494755,-73.64588163793087,15,0,15,15
+bixi_montreal,Gare Ste-Dorothée (Hector-Nadon / du Chemin-de-Fer),45.524444797144994,-73.86229433119297,15,6,21,21
+bixi_montreal,Henri-Julien / de Castelnau,45.53789110878484,-73.6182153224945,8,14,23,22
+bixi_montreal,St-Grégoire / Christophe-Colomb,45.53255611409675,-73.58993947505951,29,9,39,38
+bixi_montreal,Parc du Père-Marquette (de Bellechasse),45.53952827163164,-73.59497129917145,2,34,36,36
+bixi_montreal,Bassin olympique (Chemin du Chenal le Moyne),45.5169025120042,-73.52724552154541,8,11,19,19
+bixi_montreal,Ste-Catherine / Union,45.50370387789841,-73.56941521167755,1,36,37,37
+bixi_montreal,Jeanne-Mance / Laurier,45.52027633320609,-73.59497621666378,10,12,22,22
+bixi_montreal,Darveau / de Lyon,45.51408574132741,-73.46286497080655,7,8,15,15
+bixi_montreal,Métro de la Concorde (Léo-Lacombe),45.5604898518365,-73.7091851234436,3,12,15,15
+bixi_montreal,de Courcelle / Acorn,45.47400860229191,-73.59178466722369,13,8,21,21
+bixi_montreal,Gagne / LaSalle,45.422451407155854,-73.601194024086,16,3,19,19
+bixi_montreal,Métro Jean-Talon (Lajeunesse / Jean-Talon),45.539565349221625,-73.61411895610217,1,18,19,19
+bixi_montreal,Métro du Collège (Cartier / Décarie),45.50843904979172,-73.6729645729065,4,12,17,16
+bixi_montreal,Bibliothèque du Vieux-St-Laurent (de l'Église / Filiatrault),45.512843286755896,-73.67612421512604,4,14,18,18
+bixi_montreal,des Prairies / du Pacifique,45.549420832009176,-73.70114654302597,4,11,15,15
+bixi_montreal,de la Cathédrale / René-Lévesque,45.499161694813886,-73.56931967664423,0,31,31,31
+bixi_montreal,Rachel / de Brébeuf,45.526911494644025,-73.5727014299664,25,4,29,29
+bixi_montreal,8e avenue / Notre-Dame Lachine,45.43498715540587,-73.67079868912697,5,14,19,19
+bixi_montreal,N.-P. Lapierre / Armand-Frappier,45.57978196712583,-73.34458894098134,6,9,15,15
+bixi_montreal,Sherbrooke / Frontenac,45.53673221553339,-73.560796189131,0,15,15,15
+bixi_montreal,Parc Chenier (de l'Aréna / Chenier),45.60248649638568,-73.5432904958725,0,16,19,16
+bixi_montreal,des Écores / de Bellechasse,45.54607879439562,-73.58988046646118,16,7,23,23
+bixi_montreal,Parc Atwater (Saint-Charles),45.477300883436854,-73.57314472410508,5,13,19,18
+bixi_montreal,de Maisonneuve / Aylmer (est),45.50538591756765,-73.5704317688942,2,19,21,21
+bixi_montreal,Lajeunesse / Villeray,45.54218173507584,-73.62268656492233,3,11,15,14
+bixi_montreal,Boyer / St-Zotique,45.53866220045916,-73.60580742359161,10,14,27,24
+bixi_montreal,Parc Maurice-Bélanger (Hébert / Denommée),45.5877138098252,-73.63171823322773,4,11,15,15
+bixi_montreal,Métro D'Iberville (Louis-Hébert / Jean-Talon),45.552957242708004,-73.60235005617142,2,13,15,15
+bixi_montreal,Peel / Notre-Dame,45.49544692088696,-73.56329441070557,3,40,43,43
+bixi_montreal,Hillside / Ste-Catherine,45.48284635977799,-73.5909104347229,0,12,15,12
+bixi_montreal,des Récollets / Fleury,45.585388428776476,-73.6347109079361,6,8,15,14
+bixi_montreal,Ateliers municipaux de St-Laurent (Cavendish / Poirier),45.506175841460966,-73.71118605136871,10,9,19,19
+bixi_montreal,Henri-Julien / Laurier,45.52574657625029,-73.59033644199371,2,17,19,19
+bixi_montreal,de la Roche / Bélanger,45.54159135681213,-73.60757953489156,9,13,23,22
+bixi_montreal,Vallières / St-Laurent,45.518967223320054,-73.5836161673069,7,16,23,23
+bixi_montreal,1ère avenue / St-Zotique,45.551916701344936,-73.59366238117218,5,14,19,19
+bixi_montreal,Métro Charlevoix (Centre / Charlevoix),45.47840089832752,-73.56956273317337,5,13,19,18
+bixi_montreal,Marie-Anne / Papineau,45.53176697148175,-73.5724139213562,5,18,23,23
+bixi_montreal,Augustin-Cantin / Shearer,45.48390169543355,-73.56363236904144,4,25,31,29
+bixi_montreal,Sacré-Coeur / Gamache,45.527631653155645,-73.4708539303574,12,7,19,19
+bixi_montreal,Parc Beaubien Outremont (Stuart / St-Viateur),45.515969694922276,-73.60827505588531,4,9,15,13
+bixi_montreal,de Maisonneuve / de Bleury,45.50710068509571,-73.56907725334167,1,26,27,27
+bixi_montreal,Legendre / André-Grasset,45.5585431972121,-73.63820562786714,5,16,23,21
+bixi_montreal,du Parc / Bégin,45.60790865019953,-73.66507954895496,9,11,23,20
+bixi_montreal,de la Commune / King,45.49750375338383,-73.55284452438353,55,22,79,77
+bixi_montreal,BAnQ (Berri),45.51601387670667,-73.56291957199574,3,11,15,14
+bixi_montreal,de la Gauchetière / St-Alexandre,45.50295893873599,-73.56374170638446,4,13,19,17
+bixi_montreal,Irwin / Allard,45.44890342900198,-73.6049048602581,4,10,15,14
+bixi_montreal,Métro Beaubien (de St-Vallier / Beaubien),45.53478444274838,-73.60463261604308,1,17,19,18
+bixi_montreal,Bercy / Rachel,45.53840340979245,-73.56196403503418,1,18,19,19
+bixi_montreal,de la Peltrie / de la Côte-des-Neiges,45.49974663042742,-73.63019943237305,6,25,31,31
+bixi_montreal,Waverly / St-Viateur,45.5238561444472,-73.60012650489807,3,28,31,31
+bixi_montreal,St-Sylvestre / St-Charles,45.53638517746843,-73.51247191429138,4,18,23,22
+bixi_montreal,St-Jean / Guillaume,45.53524851020352,-73.5068191587925,1,12,14,13
+bixi_montreal,Gare Lachine (Sir George Simpson / 48e avenue),45.447821314280105,-73.71091783046722,1,14,15,15
+bixi_montreal,d'Iberville / Perrault,45.52699840559034,-73.50520766342015,3,16,19,19
+bixi_montreal,8e Avenue / 15e rue,45.5655972,-73.6974907,12,11,23,23
+bixi_montreal,Bélanger / des Galeries d'Anjou,45.59722114932571,-73.56279015541077,6,13,19,19
+bixi_montreal,de Blois / des Grandes-Piles,45.589251998013815,-73.6826741695404,6,13,19,19
+bixi_montreal,de la Vérendrye / 75e avenue,45.42070552680549,-73.62966051438889,13,5,19,18
+bixi_montreal,Cavendish / Dr.-Frederick-Philips,45.4973653331708,-73.70085525519244,3,16,19,19
+bixi_montreal,Ste-Croix / Tassé,45.51953948301331,-73.68516325950623,18,5,23,23
+bixi_montreal,Bourbonnière / du Mont-Royal,45.55358456339093,-73.56052905321121,5,22,27,27
+bixi_montreal,Rielle / Wellington,45.46015836125838,-73.56699254371051,8,15,23,23
+bixi_montreal,Métro Parc  (Hutchison / Ogilvy),45.53035130173597,-73.6243924498558,1,29,33,30
+bixi_montreal,St-Patrick / Thomas-Keefer,45.47801152713375,-73.57427294832632,28,1,31,29
+bixi_montreal,Hutchison / Van Horne,45.52497612960628,-73.61066222190857,2,21,23,23
+bixi_montreal,St-Nicolas / Place d'Youville,45.501986944225784,-73.55516648853154,1,25,27,26
+bixi_montreal,St-Dominique / Rachel,45.51861160491394,-73.58156056457119,4,18,23,22
+bixi_montreal,Jean-d’Estrées / Notre-Dame,45.494390273885884,-73.56391131877899,1,20,23,21
+bixi_montreal,Darling / Sherbrooke,45.54545514686953,-73.55673909187317,5,18,23,23
+bixi_montreal,Richmond / des Bassins,45.48748348091225,-73.56505062438373,21,1,23,22
+bixi_montreal,Laurier / de Bordeaux,45.53725128371284,-73.57918381690979,16,7,23,23
+bixi_montreal,6e Avenue / Bélanger,45.554582815249745,-73.59631910920143,6,13,19,19
+bixi_montreal,du Tricentenaire / Prince-Albert,45.64954588445726,-73.49191546440125,2,13,15,15
+bixi_montreal,Terminus Le Carrefour (Terry-Fox / Le Carrefour),45.56842034638607,-73.74687284231186,8,23,31,31
+bixi_montreal,du Rosaire / St-Hubert,45.544788287191764,-73.62160965800285,0,15,15,15
+bixi_montreal,Soeurs-Grises / Marguerite-Youville,45.49880850580225,-73.5545289516449,14,15,30,29
+bixi_montreal,Jeanne-d'Arc / Ontario,45.54959767887176,-73.54187428951263,14,9,23,23
+bixi_montreal,Gilford / St-Denis,45.52497612960628,-73.58558893203735,19,17,39,36
+bixi_montreal,de Gaspé / Jarry,45.540780049797995,-73.63040059804916,3,12,15,15
+bixi_montreal,Gare du Ruisseau (Dutrisac / Henri-Bourassa),45.52814371649508,-73.69254536926746,4,15,19,19
+bixi_montreal,Métro Villa-Maria (de Monkland / Décarie),45.4790046017838,-73.61956179141998,0,24,26,24
+bixi_montreal,St-Joseph / 8e avenue Lachine,45.431518914135125,-73.67110446095467,15,12,27,27
+bixi_montreal,Parc de la Confédération (Fielding / West Hill),45.471881993586074,-73.64002168178558,8,13,23,21
+bixi_montreal,de Marseille / de la Pépinière,45.576651576813596,-73.54069948196411,10,11,23,21
+bixi_montreal,Métro Acadie (de l'Acadie / Beaumont),45.52357479400008,-73.62344294786453,0,13,13,13
+bixi_montreal,6e avenue / Wellington,45.45542715196195,-73.56789708137512,7,11,19,18
+bixi_montreal,Parc St-Gabriel (Grand Trunk / Ropery),45.478545712518894,-73.56572315096855,18,0,19,18
+bixi_montreal,St-Laurent / de Chambly,45.5398841503055,-73.504639035109,11,10,21,21
+bixi_montreal,9e avenue / Masson,45.54948994879926,-73.57327222824097,10,5,15,15
+bixi_montreal,Parc Lalancette (de Rouen / Valois),45.54814504700217,-73.5471260547638,2,20,23,22
+bixi_montreal,de Rio / de Bohème,45.61266610211911,-73.74587506055832,1,22,23,23
+bixi_montreal,Montarville / Beaubien,45.519154564374674,-73.4718074556622,4,11,15,15
+bixi_montreal,Prince-Arthur / Ste-Famille,45.511670167106246,-73.57463479042053,6,17,23,23
+bixi_montreal,Dudemaine / James-Morrice,45.534717640125805,-73.69273205651552,4,13,19,17
+bixi_montreal,Victoria / 39e avenue,45.44001578400139,-73.70019972324371,3,12,15,15
+bixi_montreal,Parc Garibaldi (Liénart / Bélanger),45.586476480180046,-73.570396900177,5,9,15,14
+bixi_montreal,Collège Ahuntsic (St-Hubert / Émile-Journault),45.55118940267553,-73.64060204476118,2,20,23,22
+bixi_montreal,7e avenue / Masson,45.54863154452348,-73.57469648122787,4,13,19,17
+bixi_montreal,Ste-Catherine / Sanguinet,45.512936177874096,-73.56124520301817,2,41,43,43
+bixi_montreal,Parc Loyola (Doherty / Somerled),45.45977643005621,-73.64478074468934,3,2,19,5
+bixi_montreal,Clark / de Liège,45.539988024015756,-73.63811277307832,3,14,19,17
+bixi_montreal,Terminus Newman (Airlie / Lafleur),45.425059666150744,-73.64959917962551,0,19,19,19
+bixi_montreal,de Gentilly / St-Jean,45.532497613819366,-73.49942399192514,9,14,23,23
+bixi_montreal,Parc Henri-Dunant (Léger / Henri-Dunant),45.56843961893042,-73.6752020941276,4,23,27,27
+bixi_montreal,Ste-Famille / Shebrooke,45.51006693207122,-73.57072150607564,7,23,31,30
+bixi_montreal,Montcalm / Ontario,45.52110494530867,-73.56229394674301,22,5,27,27
+bixi_montreal,Parc Ludger-Duvernay (St-André / St-Hubert),45.53147464147482,-73.59242051839828,5,11,19,16
+bixi_montreal,Principale / des Jacinthes,45.52741897289617,-73.83404329419136,3,20,23,23
+bixi_montreal,Parc du Bois-Franc (de l'Équateur / des Andes),45.51317758246596,-73.71306091547012,11,8,19,19
+bixi_montreal,Michelet / Jean-Talon,45.57627820285533,-73.58353972434998,2,21,23,23
+bixi_montreal,Émery / St-Denis,45.51483155785108,-73.56349289417267,9,9,19,18
+bixi_montreal,Chambord / Rosemont,45.537087833013324,-73.59321847558022,23,20,43,43
+bixi_montreal,7e avenue / St-Joseph,45.54710817336986,-73.56936693191528,13,14,27,27
+bixi_montreal,Nielsen / Windsor,45.49632152389125,-73.46782973969312,5,10,15,15
+bixi_montreal,de Normanville / Beaubien,45.539202513135926,-73.60001519322395,4,14,19,18
+bixi_montreal,90e Avenue / Lévesque O,45.53121456506295,-73.74735295772552,4,26,31,30
+bixi_montreal,26e avenue / Bélanger,45.567201236902285,-73.58513630926609,1,17,19,18
+bixi_montreal,Dunkirk / Laird,45.51588782124145,-73.6423122882843,11,9,23,20
+bixi_montreal,Cypress / Peel,45.499164073115374,-73.57190017912217,0,27,27,27
+bixi_montreal,de Bordeaux / Masson,45.539037937964046,-73.58252048492432,1,16,19,17
+bixi_montreal,Fabre / Jean-Talon,45.546634811657086,-73.60776543617249,4,6,11,10
+bixi_montreal,Léonard-de-Vinci / Villeray,45.56581967268723,-73.5998260974884,1,17,19,18
+bixi_montreal,Ste-Hélène / Curé-Poirier,45.51548878161489,-73.49131516182752,7,12,19,19
+bixi_montreal,Laurier / de Brébeuf,45.532449016819825,-73.5847695171833,29,0,31,29
+bixi_montreal,Marcil / Sherbrooke,45.471743,-73.613924,8,19,27,27
+bixi_montreal,Parc Chamberland (Dorais / de l'Église),45.502989,-73.689113,1,18,19,19
+bixi_montreal,Waverly / Bernard,45.52562443297396,-73.60413372516632,17,5,23,22
+bixi_montreal,Natatorium (LaSalle / Rolland),45.4443505862464,-73.57542979723802,6,17,23,23
+bixi_montreal,Guy / Sainte-Catherine,45.49497512853125,-73.57777043248461,4,26,31,30
+bixi_montreal,Jeanne-Mance / René-Lévesque,45.5063713381299,-73.5642009973526,2,59,61,61
+bixi_montreal,de Chenonceau / Chomedey,45.56157,-73.75448,14,9,23,23
+bixi_montreal,Parc Villeray (Jarry / Christophe-Colomb),45.548513207676116,-73.62365484237671,3,10,15,13
+bixi_montreal,de Maisonneuve / Greene,45.48697062,-73.58929306,3,15,19,18
+bixi_montreal,Calixa-Lavallée / Rachel,45.52778299244644,-73.57167445577942,10,15,28,25
+bixi_montreal,Parc Delorme (Malouin / Laferté),45.5904902,-73.5902694,2,17,19,19
+bixi_montreal,Travaux publics LaSalle (Cordner / Léger),45.44527192876118,-73.62448364496231,7,8,15,15
+bixi_montreal,Duchesneau / de Marseille,45.60962627826218,-73.52273898082785,4,13,19,17
+bixi_montreal,Dandurand / D'Iberville,45.5443716426341,-73.5809513926506,5,13,19,18
+bixi_montreal,Parc Summerlea (53e avenue / St-Joseph),45.43836713933041,-73.71546685695648,10,5,15,15
+bixi_montreal,Parc de Dieppe (Pierre-Dupuy),45.501863463435576,-73.5439610481262,0,34,35,34
+bixi_montreal,St-Hubert / Duluth,45.522425652788634,-73.57418417930603,13,9,23,22
+bixi_montreal,Milton / St-Laurent,45.512916325090295,-73.57055649161339,0,21,21,21
+bixi_montreal,Louisbourg / O'Brien,45.53039449604383,-73.70393217686795,3,16,23,19
+bixi_montreal,McGill / Place d'Youville,45.500014581102505,-73.55625258141116,1,27,29,28
+bixi_montreal,Sun Valley / de Sillery,45.57947177833405,-73.71477752923964,11,12,23,23
+bixi_montreal,Hurteau / Springland,45.45297215862998,-73.59934866428375,9,10,19,19
+bixi_montreal,Métro Angrignon (Lamont / des Trinitaires),45.44650450192042,-73.6025619506836,3,18,23,21
+bixi_montreal,Clark / Laurier,45.522550328228355,-73.59350547194481,15,2,19,17
+bixi_montreal,Complexe Desjardins (St-Urbain / René-Lévesque),45.50788520688478,-73.56315059590997,2,36,41,38
+bixi_montreal,Labonté / du Coteau-Rouge,45.526787093145025,-73.49153663970355,11,11,23,22
+bixi_montreal,du Séminaire / de la Montagne,45.4921078892434,-73.56246292591095,1,30,35,31
+bixi_montreal,Richardson / Montmorency,45.484966061164755,-73.56032252311707,8,29,39,37
+bixi_montreal,de Gaspé / de Liège,45.54248521237199,-73.63634169101715,5,18,23,23
+bixi_montreal,Plessis / Ontario,45.523593057451045,-73.56109768152237,18,1,19,19
+bixi_montreal,Drolet / St-Zotique,45.53488214147823,-73.60941231250763,16,6,23,22
+bixi_montreal,Durocher / Beaumont,45.52799772330074,-73.61919969320297,1,17,19,18
+bixi_montreal,Chapleau / du Mont-Royal,45.53867,-73.56936,3,14,19,17
+bixi_montreal,Guizot / St-Laurent,45.53968044327973,-73.63450437784195,7,12,19,19
+bixi_montreal,Drolet / Marie-Anne,45.522402573414084,-73.58117669820786,7,16,23,23
+bixi_montreal,de Châteaubriand / Beaubien,45.535331706102355,-73.60346686095,4,18,23,22
+bixi_montreal,Ste-Catherine / St-Clément,45.55671730558936,-73.53024959564209,10,4,15,14
+bixi_montreal,Boyer / Everett,45.54310243053054,-73.61607524188003,12,7,19,19
+bixi_montreal,de Mentana / Marie-Anne,45.526026565221414,-73.57785880565643,22,4,27,26
+bixi_montreal,Métro Viau (Pierre-de-Coubertin / Viau),45.56228814999496,-73.54622590548388,0,54,55,54
+bixi_montreal,Parc des Vétérans (des Vétérans / Broadway),45.63147192165401,-73.50819479674101,6,5,11,11
+bixi_montreal,Parc Beaulac (Élizabeth),45.5200557245067,-73.67795147001743,4,11,15,15
+bixi_montreal,de Lanaudière / du Mont-Royal,45.53008802331729,-73.57688208474428,21,9,31,30
+bixi_montreal,Place des Festivals (du Président-Kennedy / de Bleury),45.50764392965887,-73.56932401657104,2,23,27,25
+bixi_montreal,St-André / Rachel,45.52409561323593,-73.57537156904073,14,1,15,15
+bixi_montreal,Paré / Mountain Sights,45.49808281150267,-73.6530089378357,7,4,13,11
+bixi_montreal,Métro Pie-IX (Pierre-de-Coubertin / Desjardins),45.554373399819674,-73.55137467384337,0,48,49,48
+bixi_montreal,Parc de l'Hôtel-de-Ville (Ste-Julie / Laurendeau),45.630686043767284,-73.4948467835784,9,9,19,18
+bixi_montreal,Faillon / St-Denis,45.539890852781404,-73.62026989459991,3,20,23,23
+bixi_montreal,Dufault / Lesage,45.60194510616968,-73.6646980047226,13,10,23,23
+bixi_montreal,Parc Kirkland (des Érables / Boyer),45.44606092178209,-73.65079946815968,14,0,15,14
+bixi_montreal,Parc Jeanne-Mance (monument sir George-Étienne-Cartier),45.51487490356938,-73.58486406505108,37,6,47,43
+bixi_montreal,Gilford / Parthenais,45.53782943723569,-73.57480850077991,10,4,15,14
+bixi_montreal,Parc Hébert (Colbert / Provencher),45.57237805962001,-73.59370462596415,9,4,15,13
+bixi_montreal,St-Dominique / de Bellechasse,45.52952466565309,-73.60488876700401,6,22,31,28
+bixi_montreal,Lahaie / Meunier,45.568223569025186,-73.68590623140335,10,5,15,15
+bixi_montreal,Métro Georges-Vanier (Terrasse Coursol / Canning),45.48882629021402,-73.57531207291686,15,0,19,15
+bixi_montreal,St-Hubert / de Maisonneuve (nord),45.51613214980722,-73.56049686670303,0,23,23,23
+bixi_montreal,Collège Bois-de-Boulogne (Bois-de-Boulogne),45.53690740947054,-73.67478135508463,1,24,25,25
+bixi_montreal,Parc Courbertin (Valéry / Perrier),45.5839877335556,-73.60809333622456,11,7,19,18
+bixi_montreal,Parc Hilda-Ramacière (de Bullion / Prince-Arthur),45.51562131982338,-73.57212960720062,3,16,19,19
+bixi_montreal,Lafontaine / Islemère,45.524156813793475,-73.85042756795883,8,10,19,18
+bixi_montreal,Dubois / Eadie,45.45760820718457,-73.59051011502743,14,5,19,19
+bixi_montreal,Marquette / du Coteau-Rouge,45.52022330145822,-73.49676324058237,8,11,19,19
+bixi_montreal,Parc MacDonald (Clanranald / Isabella),45.482741483803686,-73.6347082843349,4,11,15,15
+bixi_montreal,Ontario / Sicard,45.55626186680846,-73.53744059801102,6,21,27,27
+bixi_montreal,du Square Saint-Louis / Laval,45.51608652423074,-73.570156325477,3,28,31,31
+bixi_montreal,Old Orchard / de Monkland,45.47638257708197,-73.62239556996428,2,18,23,20
+bixi_montreal,St-Jacques / Richmond,45.4906636488045,-73.57080727815628,10,13,23,23
+bixi_montreal,Boyer / Jean-Talon,45.54176195978538,-73.61293137073515,3,23,27,26
+bixi_montreal,Garnier / du Mont-Royal,45.53075597398246,-73.5761762317452,15,6,23,21
+bixi_montreal,Métro Préfontaine (Moreau / Hochelaga),45.541313503285316,-73.5537427291274,3,26,31,29
+bixi_montreal,Cuvillier / de Chambly,45.51302484317804,-73.44323541976337,9,8,19,17
+bixi_montreal,Melrose / de Verdun,45.45381979371188,-73.57238446649716,14,5,19,19
+bixi_montreal,Théâtre du Vieux-Terrebonne (St-Pierre / des Braves),45.69223305604548,-73.63703128697125,11,8,19,19
+bixi_montreal,St-André / Ste-Catherine,45.516297540849614,-73.55801045894623,3,23,27,26
+bixi_montreal,St-Antoine / Jean-Paul Riopelle,45.50304782909863,-73.56058964667682,1,22,23,23
+bixi_montreal,Jean-Paul-Vincent / Adoncour,45.5646764291021,-73.47957750896057,4,11,15,15
+bixi_montreal,Gilford / de la Roche,45.53020692408532,-73.58207069792115,6,12,18,18
+bixi_montreal,Métro Vendôme (de Marlowe / de Maisonneuve),45.47393028235147,-73.60473453998564,0,30,31,30
+bixi_montreal,Langelier / Marie-Victorin,45.614454259132174,-73.61214063132138,5,8,15,13
+bixi_montreal,LaSalle / Crawford,45.43791516514076,-73.58253550531117,4,10,15,14
+bixi_montreal,des Ormeaux / de Grosbois,45.605901731906485,-73.53436946868896,3,12,15,15
+bixi_montreal,CHSLD St-Michel (8e avenue / Jarry),45.5616903,-73.610512,7,6,15,13
+bixi_montreal,Eadie / Galt,45.46299810854156,-73.59011898464814,5,18,23,23
+bixi_montreal,Lanouette / de l'Église,45.46337393327436,-73.57683420181274,9,4,15,13
+bixi_montreal,Parc St-Henri (Laporte / Guay),45.4801160762769,-73.58560770750046,4,10,15,14
+bixi_montreal,Milton / Hutchison,45.508959131298816,-73.57421151364179,3,24,27,27
+bixi_montreal,Gordon / de Verdun,45.46125941617175,-73.57184261083603,14,1,15,15
+bixi_montreal,Bourget / Notre-Dame,45.47948743980156,-73.58150329448108,1,22,23,23
+bixi_montreal,de l'Esplanade  / Fairmount,45.521484558655224,-73.59684884548187,13,2,15,15
+bixi_montreal,Berlioz / de l'Île des Soeurs,45.45998577640931,-73.54395568370819,8,15,23,23
+bixi_montreal,Métro Université de Montréal (Édouard-Montpetit / Louis-Collin),45.50363996257211,-73.6182689666748,10,16,26,26
+bixi_montreal,Thomas-Chaplais / Notre-Dame,45.54207756205827,-73.74571412801743,15,8,23,23
+bixi_montreal,Bassin Peel (Smith / de la Commune),45.49272253623337,-73.55627238750458,12,14,27,26
+bixi_montreal,Daniel-Johnson / Cartier O,45.54334371050831,-73.72530519962311,13,14,27,27
+bixi_montreal,Berri / Rachel,45.52275023118295,-73.57724860310555,11,6,19,17
+bixi_montreal,8e avenue / Dandurand,45.550113551561694,-73.5772217810154,4,12,19,16
+bixi_montreal,Métro Place-d'Armes (St-Urbain / Viger),45.5063863763071,-73.55969488620758,6,13,19,19
+bixi_montreal,3e avenue / Bannantyne,45.45762346743397,-73.5763577930993,2,13,15,15
+bixi_montreal,Métro Plamondon (de Kent / Victoria),45.494686752797904,-73.63871866467889,14,8,23,22
+bixi_montreal,de l'Hôtel-de-Ville / Rachel,45.51989655507833,-73.58010649681091,7,7,14,14
+bixi_montreal,Campus MIL (Thérèse-Lavoie Roux / Outremont),45.52305513467406,-73.61817508935928,6,23,31,29
+bixi_montreal,Marquette / du Mont-Royal,45.53221791147474,-73.57543140649796,13,9,23,22
+bixi_montreal,Beatty / de Verdun,45.450729976972944,-73.5725748538971,22,1,23,23
+bixi_montreal,Masson / Molson,45.54434593245247,-73.57697686180472,4,11,19,15
+bixi_montreal,Grove / Miller,45.48237110229563,-73.47514789086745,6,8,15,14
+bixi_montreal,Métro Jarry (Berri / Jarry),45.54306944338219,-73.62848818302155,1,14,15,15
+bixi_montreal,de St-Vallier / St-Zotique,45.536434338630336,-73.60783427975548,1,18,19,19
+bixi_montreal,Métro Snowdon (Circle / Queen-Mary),45.48514885008702,-73.6275440454483,3,19,23,22
+bixi_montreal,de Gaspé / Marmier,45.529668174024685,-73.60166944563389,11,9,21,20
+bixi_montreal,Aylmer / Ste-Catherine,45.50437634533078,-73.56901906885469,1,34,35,35
+bixi_montreal,LaSalle / Godin,45.44693448484644,-73.57219934463501,25,2,27,27
+bixi_montreal,Joseph-Manseau / René-Levesque,45.491686521008035,-73.57682347297668,8,11,19,19
+bixi_montreal,de Périgueux / Ampère,45.56936106584533,-73.71076360344887,4,19,23,23
+bixi_montreal,Pierre-de-Coubertin / Langelier,45.580314546424674,-73.5353136062622,9,6,15,15
+bixi_montreal,Boyer / de Bellechasse,45.53578876027516,-73.59934665262699,2,24,27,26
+bixi_montreal,Parc Aimé-Léonard (Gouin / Ste-Gertrude),45.60835820969716,-73.63850623369217,6,11,17,17
+bixi_montreal,Cathcart / McGill College,45.501187681489775,-73.57045487814501,0,27,27,27
+bixi_montreal,Parc Pratt (Dunlop / Van Horne),45.514918954061876,-73.61968517303467,5,9,15,14
+bixi_montreal,Villeray / De Normanville,45.54716675630067,-73.6184438467353,1,22,23,23
+bixi_montreal,Letourneux / Ste-Catherine,45.55078357889704,-73.53409996037954,8,11,19,19
+bixi_montreal,Gilford / de Brébeuf,45.530870247773066,-73.58155757188797,9,14,23,23
+bixi_montreal,Plymouth / Chem.Eden,45.506488823782234,-73.66047888994217,3,10,15,13
+bixi_montreal,Jeanne-Mance / Beaubien,45.527650097960205,-73.61229971051216,0,14,15,14
+bixi_montreal,Chabanel / Tolhurst,45.5399269287734,-73.65388602018356,0,13,15,13
+bixi_montreal,des Récollets / Martial,45.590916779468024,-73.64067547023296,7,12,19,19
+bixi_montreal,Workman / Vinet,45.483788863965174,-73.5750612616539,19,4,23,23
+bixi_montreal,Parc Van Horne (de la Peltrie / de Westbury),45.490494421832885,-73.63852232694626,5,9,15,14
+bixi_montreal,Parc Stoney-Point (St-Joseph / 47e avenue),45.43656827071224,-73.70836973190308,16,3,19,19
+bixi_montreal,St-Denis / Ste-Catherine,45.51372291221464,-73.5603104531765,9,34,43,43
+bixi_montreal,Guizot / St-Denis,45.543423548290185,-73.63246187567711,1,17,19,18
+bixi_montreal,Parc Georges St-Pierre (Oxford / Upper Lachine),45.46887995929811,-73.60943913459778,7,12,19,19
+bixi_montreal,Montgolfier / Notre-Dame,45.53335502164111,-73.78094762563704,2,29,31,31
+bixi_montreal,des Jockeys / Décarie,45.49404432109336,-73.65449488162994,17,2,19,19
+bixi_montreal,15e avenue / Laurier,45.55331992800521,-73.56932803988457,7,16,24,23
+bixi_montreal,Lapierre / Serge,45.43854405099729,-73.62021625041962,1,12,14,13
+bixi_montreal,Dollard / Van Horne,45.518996353264406,-73.61592471599579,6,17,23,23
+bixi_montreal,St-Dominique / St-Viateur (nord),45.5269693777058,-73.59922196723346,7,19,27,26
+bixi_montreal,Mayfield / St-Martin O,45.553017541248565,-73.75822663307189,10,9,19,19
+bixi_montreal,Wilson / Sherbrooke,45.4703791154553,-73.61663818359374,3,16,19,19
+bixi_montreal,Grenet / Poirier,45.51871924623225,-73.69875401258469,2,12,15,14
+bixi_montreal,du Parc-La Fontaine / Duluth,45.52451761488783,-73.57197672128677,17,13,31,30
+bixi_montreal,Ropery / Augustin-Cantin,45.48097552629275,-73.56863468885422,16,18,35,34
+bixi_montreal,Dandurand / de Lorimier,45.54088934785174,-73.58419083058834,4,14,19,18
+bixi_montreal,Gare Ste-Rose (Ste-Rose E),45.625645225449055,-73.76538679003716,2,15,20,17
+bixi_montreal,Gare Longueuil-Saint-Hubert (de l'Aéroport),45.50847886948155,-73.43093059027524,13,8,21,21
+bixi_montreal,Parc Hôtel de Ville (de l'Hôtel-de-Ville / Principale),45.529797075820866,-73.81473809480667,9,9,19,18
+bixi_montreal,de la Commune / St-Sulpice,45.50424245563397,-73.553469479084,39,8,47,47
+bixi_montreal,Parc D.-E.-Joyal (Édouard / Windsor),45.50073113467841,-73.47395724618764,2,12,15,14
+bixi_montreal,Parc Ottawa (de Belleville / Fleury),45.58116,-73.6412434,12,2,15,14
+bixi_montreal,Maguire / Henri-Julien,45.527041096087785,-73.59347056655677,1,18,19,19
+bixi_montreal,Chabot / Beaubien,45.54442573762501,-73.59578132629395,3,12,15,15
+bixi_montreal,41e avenue / Rosemont,45.57178977666956,-73.56431499123573,5,13,19,18
+bixi_montreal,des Bassins / Rioux,45.49099646036543,-73.55944275856018,4,23,27,27
+bixi_montreal,St-Hubert / René-Levesque,45.514481971650625,-73.5568732023239,1,17,19,18
+bixi_montreal,St-Rémi / Ste-Émilie,45.46976497412213,-73.58923405408859,17,8,27,25
+bixi_montreal,Métro Édouard-Montpetit (du Mont-Royal / Vincent-d'Indy),45.5102725432849,-73.61140972936482,5,21,27,26
+bixi_montreal,Cartier / Bélanger,45.546779039476185,-73.60281676054001,3,19,23,22
+bixi_montreal,Tupper / du Fort,45.491202175002506,-73.58074486255646,3,12,15,15
+bixi_montreal,St-Germain / Hochelaga,45.543652466151,-73.5534825682771,2,16,19,18
+bixi_montreal,Drolet / Jarry,45.54195463236575,-73.62994194030762,1,18,19,19
+bixi_montreal,Parc Notre-Dame (Galipeau / Dufferin),45.622851920920716,-73.78145053982733,11,12,23,23
+bixi_montreal,Laval / du Mont-Royal,45.5223645775784,-73.58414590358734,7,12,19,19
+bixi_montreal,Casgrain / Maguire,45.52621764749851,-73.5957657695144,1,21,23,22
+bixi_montreal,Waverly / Beaumont,45.53118825986005,-73.61607760190964,6,13,19,19
+bixi_montreal,Jean-Brillant / Decelles,45.498319625387495,-73.61935560278198,0,23,23,23
+bixi_montreal,Parc Michel-Chartrand (Adoncour / du Lac),45.54296834749867,-73.47319818103642,14,7,21,21
+bixi_montreal,Quai de la navette fluviale,45.51366626207095,-73.53842496871948,9,8,19,17
+bixi_montreal,HEC (Decelles / Jean-Brillant),45.497722829899764,-73.61925333738327,0,23,25,23
+bixi_montreal,Parc du Pélican (2e avenue / St-Joseph),45.544580831168204,-73.5717111825943,2,17,19,19
+bixi_montreal,Métro Jolicoeur (de Sève / Drake),45.45608545783109,-73.58193710446358,4,15,19,19
+bixi_montreal,Stinson / Montpellier,45.51969998953605,-73.6662483215332,15,8,23,23
+bixi_montreal,LaSalle / 90e avenue,45.41774583815495,-73.64518761634827,7,8,15,15
+bixi_montreal,Fullum / Ste-Catherine,45.52708773696299,-73.54794227041566,3,23,27,26
+bixi_montreal,Guy / Barré,45.4897009285845,-73.56628775596619,6,21,27,27
+bixi_montreal,de Monaco / du Souvenir,45.569501890755866,-73.7059235572815,9,14,23,23
+bixi_montreal,U. Concordia - Campus Loyola (Sherbrooke / West Broadway),45.45750908083069,-73.6394852399826,3,22,27,25
+bixi_montreal,Terminus de bus EXO (Côte de Terrebonne),45.697815037503666,-73.65406465532033,8,13,21,21
+bixi_montreal,Bernard / Jeanne-Mance,45.52428310031213,-73.6049484461546,3,20,23,23
+bixi_montreal,Parthenais / du Mont-Royal,45.53640396516409,-73.57141345739365,1,17,23,18
+bixi_montreal,Métro Mont-Royal (Utilités publiques / Rivard),45.5243533093994,-73.58143212901268,2,39,43,41
+bixi_montreal,Ottawa / Young,45.493709053274245,-73.55977854693263,25,3,31,28
+bixi_montreal,1ère avenue / Rosemont,45.54779995287998,-73.58486741781235,14,8,23,22
+bixi_montreal,Clark / Rachel,45.517537449207474,-73.58241524554614,7,14,23,21
+bixi_montreal,Bourgeoys / Favard,45.47993042065731,-73.55592101812363,13,12,27,25
+bixi_montreal,de la Côte St-Paul / St-Ambroise,45.467665653865964,-73.59391784324544,8,18,27,26
+bixi_montreal,Stanley / Sherbrooke,45.50105732321463,-73.57722634080346,13,26,39,39
+bixi_montreal,Cégep Édouard-Montpetit (de Normandie),45.53724605357659,-73.49498215598032,8,11,19,19
+bixi_montreal,Jacques-Casault / Christophe-Colomb,45.551961779348346,-73.6303174495697,12,8,21,20
+bixi_montreal,Le Royer / St-Laurent,45.50597445022123,-73.55429930616083,1,17,19,18
+bixi_montreal,du Fer-à-Cheval / des Hauts-Bois,45.57231912648751,-73.32789487207265,8,7,15,15
+bixi_montreal,Omer-Lavallée / du Midway,45.5457759528664,-73.56217458844185,0,18,18,18
+bixi_montreal,de Léry / Sherbrooke,45.54099971663243,-73.55826258659361,0,26,27,26
+bixi_montreal,Messier / St-Joseph,45.53946063965585,-73.57605636119843,3,13,17,16
+bixi_montreal,de Cherbourg / Samson,45.5259140090004,-73.77324432134628,11,10,21,21
+bixi_montreal,de Laprairie / Centre,45.48059248038378,-73.56577813625336,2,21,23,23
+bixi_montreal,Bourbonnière / Hochelaga,45.54987688385806,-73.54922890663147,2,17,19,19
+bixi_montreal,Parc St-Patrick (St-Patrick / St-Columban),45.48870785150952,-73.55899317193689,15,0,19,15
+bixi_montreal,Lanaudière / Bélanger,45.54365085053057,-73.60565051436424,14,6,23,20
+bixi_montreal,Parc Benny (Benny / de Monkland),45.46691310542626,-73.6315867306621,18,3,23,21
+bixi_montreal,Collège André-Grasset (Crémazie / Christophe-Colomb),45.550989649719114,-73.63216600382657,3,15,19,18
+bixi_montreal,St-Charles / Grant,45.539666177205206,-73.50903868675232,9,8,19,17
+bixi_montreal,Duluth / de l'Esplanade,45.515132275425785,-73.58105599880219,24,2,27,26
+bixi_montreal,Bennett / Ste-Catherine,45.55315915057821,-73.53263273835182,11,10,21,21
+bixi_montreal,Marmier / St-Denis,45.53080495407925,-73.59839648008347,1,24,27,25
+bixi_montreal,des Rossignols / des Oiseaux,45.591144358842655,-73.77203732728958,7,8,15,15
+bixi_montreal,d'Anvers / Wiseman,45.53014304871808,-73.6400398240221,5,18,23,23
+bixi_montreal,Parc Ernest-Rouleau (Gouin),45.63131269772338,-73.61631497740746,10,8,19,18
+bixi_montreal,St-Antoine / St-François-Xavier,45.5045770667804,-73.55918392539024,15,14,29,29
+bixi_montreal,Charles-Biddle / Atwater,45.47913738100108,-73.57514977455139,14,3,19,17
+bixi_montreal,Cartier / Masson,45.5380207402854,-73.58352363109587,8,10,19,18
+bixi_montreal,Louis-Hémon / Rosemont,45.54430551341823,-73.58791708946228,10,9,19,19
+bixi_montreal,St-Timothée / Ste-Catherine,45.5170563208812,-73.55770137168292,6,16,23,22
+bixi_montreal,de Normanville / Everett,45.545432605263116,-73.61438512802124,2,21,23,23
+bixi_montreal,Garnier / Gilford,45.53250674403981,-73.58016096510255,4,13,19,17
+bixi_montreal,Métro Place Saint-Henri (Charlebois / St-Ferdinand),45.47689913441439,-73.58656793832779,10,12,23,22
+bixi_montreal,Thibault / d'Amay,45.62081862190173,-73.75289306044579,10,12,23,22
+bixi_montreal,15e avenue / Dandurand,45.554786595434784,-73.57425928115845,10,10,23,20
+bixi_montreal,Métro St-Laurent (de Maisonneuve / St-Laurent),45.51074821798916,-73.56512099504471,9,11,24,20
+bixi_montreal,du Havre / de Rouen,45.53456256501449,-73.55478646466509,6,17,23,23
+bixi_montreal,Hickson / Wellington,45.464826206909045,-73.56712460517883,12,14,27,26
+bixi_montreal,Lajeunesse / de Liège,45.54566376066234,-73.63510044919167,0,13,15,13
+bixi_montreal,Lincoln / St-Marc,45.494168413100326,-73.58257412910461,4,19,23,23
+bixi_montreal,Regent / Windsor,45.493470267979085,-73.46427715385289,10,5,15,15
+bixi_montreal,19e avenue / St-Zotique,45.56168275734862,-73.58564794063568,10,12,23,22
+bixi_montreal,Place du Canada (Peel / des Canadiens-de-Montréal),45.497795545133336,-73.56825113296509,0,21,23,21
+bixi_montreal,Armand-Frappier / Louis-R.-Renaud,45.554771570192926,-73.73420745134354,13,10,23,23
+bixi_montreal,Queen / Wellington,45.497568367677076,-73.55517907071771,0,47,47,47
+bixi_montreal,Parc Wilfrid-Bastien (Lacordaire / des Galets),45.5864002,-73.5952181,8,11,19,19
+bixi_montreal,Bibliothèque d'Ahuntsic (Lajeunesse / Fleury),45.5534000891078,-73.66225451231003,14,0,15,14
+bixi_montreal,Pierce / Ste-Catherine,45.49445796005324,-73.5787171125412,4,19,23,23
+bixi_montreal,du Bord-de-l'Eau / des Géraniums,45.52139350953194,-73.8380431383848,6,11,19,17
+bixi_montreal,Villeneuve / du Parc,45.518197623521424,-73.59239235520363,1,11,15,12
+bixi_montreal,Parc St-Louis (St-Joseph / 34e avenue),45.432839840726125,-73.69349151849747,12,11,23,23
+bixi_montreal,Gare Montpellier (Muir / de la Côte-Vertu),45.52374047147138,-73.67169924080372,11,3,15,14
+bixi_montreal,de Chambly / de Rouen,45.5470496637535,-73.54892179369926,2,8,11,10
+bixi_montreal,Crescent / de Maisonneuve,45.49812041247333,-73.57759594917297,9,13,23,22
+bixi_montreal,Beaudry / Sherbrooke,45.52303493310712,-73.56539458036421,6,21,27,27
+bixi_montreal,du Canal / McLaughlin,45.42969214118378,-73.6694884300232,9,13,23,22
+bixi_montreal,Cartier / Marie-Anne,45.53280412806031,-73.57190161943436,6,20,27,26
+bixi_montreal,Garnier / Beaubien,45.54144823434163,-73.59839379787445,0,14,15,14
+bixi_montreal,Laval / Duluth,45.519192617838605,-73.57715926134915,14,13,27,27
+bixi_montreal,Parc Gentilly Ouest (Belcourt / Bagot),45.53339103009588,-73.45505220819177,6,9,15,15
+bixi_montreal,de Chambly / Sherbrooke,45.548915645858266,-73.55520687997341,2,21,23,23
+bixi_montreal,Churchill / Empire,45.49211844605989,-73.48672430497572,13,8,21,21
+bixi_montreal,Métro Rosemont (de St-Vallier / Rosemont),45.53180536220488,-73.5975547786984,1,12,15,13
+bixi_montreal,Terminus de bus SRB Pie-IX (de la Concorde E / Rose-de-Lima),45.601878868782315,-73.65572065114975,7,13,21,20
+bixi_montreal,Beauregard / La Salle,45.511126706889264,-73.4860880487031,9,10,19,19
+bixi_montreal,Parc Dixie (Dixie / 54e avenue),45.44255264540259,-73.71770113706589,8,10,19,18
+bixi_montreal,Chabot / du Mont-Royal,45.53413436610844,-73.57352435588837,6,19,27,25
+bixi_montreal,Basile-Routhier / Chabanel,45.549846830745,-73.64767402410507,14,5,19,19
+bixi_montreal,Drolet / Gounod,45.54095134225734,-73.62637460231781,2,17,19,19
+bixi_montreal,35e avenue / Beaubien,45.569996465032766,-73.57307481772295,1,21,23,22
+bixi_montreal,Parc Émilie-Gamelin (St-Hubert / de Maisonneuve sud),45.51586835126322,-73.56008380651474,8,8,19,16
+bixi_montreal,Dorion / Gauthier,45.53081165221863,-73.56643053399237,10,13,23,23
+bixi_montreal,Beurling / Godin,45.44791581215845,-73.58381867408752,13,5,19,18
+bixi_montreal,Ste-Catherine / St-Marc,45.492873336202756,-73.58028620481491,12,14,27,26
+bixi_montreal,Gare Vimont (Bellerose O),45.60393931630844,-73.74249011278152,1,20,21,21
+bixi_montreal,de Batiscan / Hameury,45.585086209715826,-73.67340981960297,6,13,19,19
+bixi_montreal,Boyer / du Mont-Royal,45.527432126380575,-73.57991673052311,5,18,23,23
+bixi_montreal,Roland-Therrien / Jacques-Cartier,45.53294761504841,-73.46243364740076,2,12,15,14
+bixi_montreal,BIXI K5,45.530297633587914,-73.60139787197113,2,8,15,10
+bixi_montreal,Berri / Cherrier,45.519266156911335,-73.5692971944809,0,39,39,39
+bixi_montreal,De Callières / d'Auvergne,45.593421978698636,-73.6690217256546,16,6,23,22
+bixi_montreal,Adam / d'Orleans,45.54733170390415,-73.53858858346939,12,7,19,19
+bixi_montreal,St-Joseph / 21e avenue Lachine,45.43352120253739,-73.68354320526123,9,10,19,19
+bixi_montreal,Aylmer / Prince-Arthur,45.508566869474386,-73.57769787311554,17,4,23,21
+bixi_montreal,St-Antoine / de la Montagne,45.495369835210354,-73.56859177350998,5,14,19,19
+bixi_montreal,Leman / de Chateaubriand,45.54721107501036,-73.63105237483978,2,17,19,19
+bixi_montreal,Parc Dakin (Morrison / Kenilworth),45.50982486146528,-73.65308652348176,22,1,23,23
+bixi_montreal,Ottawa / du Séminaire,45.4912954250061,-73.56159925460815,16,7,23,23
+bixi_montreal,Christophe-Colomb / St-Joseph,45.53036486555959,-73.58439266681671,25,2,27,27
+bixi_montreal,Louis-Hémon / Beaubien,45.54686125709207,-73.59320975840092,3,19,23,22
+bixi_montreal,Hutchison / Prince-Arthur,45.50975858607626,-73.57610732316971,23,0,23,23
+bixi_montreal,Parc Luigi-Pirandello (de Bretagne / Jean-Rivard),45.57940569041942,-73.60258877277374,5,10,15,15
+bixi_montreal,St-André / de Maisonneuve,45.517101416971464,-73.55976008333528,5,14,19,19
+bixi_montreal,Fabrik8 (Waverly / Jean-Talon),45.53330725719417,-73.62082242965698,1,18,21,19
+bixi_montreal,Dézéry / Ontario,45.54095791741757,-73.54702949523926,12,15,27,27
+bixi_montreal,Métro Lionel-Groulx (St-Jacques / Atwater),45.48295816149219,-73.57975836854166,11,20,33,31
+bixi_montreal,Gary-Carter / St-Laurent,45.53613488953656,-73.62258464097977,6,29,38,35
+bixi_montreal,Métro Longueuil - Université de Sherbrooke (du Terminus),45.5233308452134,-73.52013658267424,4,28,35,32
+bixi_montreal,du President-Kennedy / Union,45.505102242483595,-73.57187882065773,1,29,31,30
+bixi_montreal,Parc Olympique (Pie-IX / Sherbrooke),45.554824549823,-73.55370283126831,8,17,25,25
+bixi_montreal,de Castelnau / Lajeunesse,45.54043190217008,-73.61650675535202,4,19,23,23
+bixi_montreal,St-Dominique / du Mont-Royal,45.52058062365273,-73.5857605934143,15,11,27,26
+bixi_montreal,Parc St-Sacrement (des Seigneurs / St-Sacrement),45.70234934325735,-73.63957804443088,10,9,19,19
+bixi_montreal,Hôpital Pierre-Boucher (Jacques-Cartier / Bourdon),45.536532102952236,-73.4576690196991,3,15,19,18
+bixi_montreal,de l'Hôtel-de-Ville / Roy,45.51733075399989,-73.57449866831303,3,16,19,19
+bixi_montreal,Ste-Catherine / de Bullion,45.51113072062821,-73.56280624866486,2,20,23,22
+bixi_montreal,Roy / St-Denis,45.51910107799227,-73.57268296636903,12,14,26,26
+bixi_montreal,St-Dominique / Bernard,45.52793332015246,-73.60122251338906,2,17,19,19
+bixi_montreal,IUSMM (Georges-Villeneuve),45.58661042838809,-73.52969169616699,1,18,19,19
+bixi_montreal,Durocher / Bernard,45.52222528598142,-73.60668718814848,5,9,15,14
+bixi_montreal,Hogan / Ontario,45.53530299560492,-73.55113729834557,0,11,11,11
+bixi_montreal,St-Dominique / Jean-Talon,45.53520398241678,-73.6175217570053,4,26,31,30
+bixi_montreal,Centre des loisirs (Tassé / Grenet),45.51473429416659,-73.69144901633263,7,8,15,15
+bixi_montreal,de l'Épée / Laurier,45.516990554375184,-73.5984548554552,6,20,27,26
+bixi_montreal,INRS (Cartier O / Armand-Frappier),45.545050335811446,-73.72108608484268,9,11,21,20
+bixi_montreal,du Mont-Royal / Augustin-Frigon,45.54355786336148,-73.56780052185059,0,22,23,22
+bixi_montreal,Hôtel de Ville (Chomedey / Cardinal),45.55031274757401,-73.74430596828459,12,6,19,18
+bixi_montreal,Fullum / Ontario,45.5303174,-73.5548669,10,5,15,15
+bixi_montreal,de Maisonneuve / Wood,45.48819793805841,-73.58807051185067,1,18,19,19
+bixi_montreal,Métro Côte-des-Neiges (Jean-Brillant / de la Côte-des-Neiges),45.495537539518104,-73.6222583055769,4,24,31,28
+acces-velo-saguenay,UQAC,48.42048,-71.05338,0,6,7,6
+acces-velo-saguenay,Terminus Ste-Therese,48.4326802,-71.175537,1,6,7,7
+acces-velo-saguenay,Place du Royaume,48.4044567,-71.0582083,4,1,7,5
 acces-velo-saguenay,Centre-Ville Kenogami,48.4241013,-71.2393211,2,4,7,6
-acces-velo-saguenay,Cégep de Chicoutimi,48.42511890000001,-71.0513359,6,1,7,7
+acces-velo-saguenay,Cégep de Chicoutimi,48.42511890000001,-71.0513359,4,3,7,7
 acces-velo-saguenay,Station Rene-Levesque,48.404255,-71.2163722,2,4,7,6
 acces-velo-saguenay,Carre Davis,48.4260924,-71.1820973,3,4,7,7
-acces-velo-saguenay,Place du Citoyen,48.4280227,-71.0625061,0,6,7,6
-acces-velo-saguenay,Parc Riviere-du-moulin,48.3989743,-71.0467171,4,3,7,7
+acces-velo-saguenay,Place du Citoyen,48.4280227,-71.0625061,4,3,7,7
+acces-velo-saguenay,Parc Riviere-du-moulin,48.3989743,-71.0467171,3,4,7,7
 acces-velo-saguenay,Terminus Jonquiere,48.4118069,-71.2548896,2,5,7,7
-acces-velo-saguenay,Terminus La Baie,48.3372301,-70.8795642,3,4,7,7
-acces-velo-saguenay,Quai des croisieres,48.3438044,-70.880053,3,4,7,7
-acces-velo-saguenay,Parc du Bassin,48.4255078,-71.0740644,5,2,7,7
-acces-velo-saguenay,Chicoutimi-Nord (rue du Pont),48.4360499,-71.0672709,0,5,7,5
+acces-velo-saguenay,Terminus La Baie,48.3372301,-70.8795642,2,5,7,7
+acces-velo-saguenay,Quai des croisieres,48.3438044,-70.880053,4,3,7,7
+acces-velo-saguenay,Parc du Bassin,48.4255078,-71.0740644,4,3,7,7
+acces-velo-saguenay,Chicoutimi-Nord (rue du Pont),48.4360499,-71.0672709,4,3,7,7
