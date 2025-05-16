@@ -1,7 +1,10 @@
 # Final-Project-Statistical-Modelling-with-Python
 
 ## Project/Goals
+<<<<<<< HEAD
 
+=======
+>>>>>>> f71b3ab9e91372bc83dbc2f3eb80ac567e8885e1
 The goal of this project is to investigate whether the number of bikes at a given bike-sharing station is related to the surrounding environment — specifically, nearby restaurants, bars, and other points of interest (POIs).
 
 To explore this relationship, I:
@@ -14,7 +17,10 @@ To explore this relationship, I:
 ---
 
 ## Process
+<<<<<<< HEAD
 
+=======
+>>>>>>> f71b3ab9e91372bc83dbc2f3eb80ac567e8885e1
 ### Part 1: Retrieving Station Data
 I began by querying the CityBikes API to retrieve real-time data on bike stations in our chosen city (Abu Dhabi and Acces Velo Saguenay initially, then Montreal and Acces Velo Saguenay due to better data availability). Each station included attributes like `latitude`, `longitude`, `free_bikes`, and `empty_slots`.
 
@@ -58,7 +64,10 @@ I interpreted coefficients, validated statistical significance, and discussed mo
 ---
 
 ## Results
+<<<<<<< HEAD
 
+=======
+>>>>>>> f71b3ab9e91372bc83dbc2f3eb80ac567e8885e1
 - Yelp had **better POI coverage** for our selected city than Foursquare — more venues per station, more detailed ratings, and stronger correlations with station size.
 - The **linear model** had low explanatory power (R-square ~ 0.03), suggesting that station capacity is driven by more than just nearby POIs.
 - The **logistic regression** performed better (Pseudo R-squred ~ 0.43). It revealed that:
@@ -68,7 +77,10 @@ I interpreted coefficients, validated statistical significance, and discussed mo
 ---
 
 ## Challenges 
+<<<<<<< HEAD
 
+=======
+>>>>>>> f71b3ab9e91372bc83dbc2f3eb80ac567e8885e1
 - **CityBikes API coverage** was limited for some cities. Initial choice (Abu Dhabi) returned many stations with no corresponding POIs in Yelp.
 - **Yelp API limits** (300 calls/day) forced careful testing and working with a limited subset of stations.
 - Inconsistent or missing data required frequent `dropna()` operations to ensure clean model inputs.
@@ -79,7 +91,10 @@ I interpreted coefficients, validated statistical significance, and discussed mo
 
 
 ## Future Goals
+<<<<<<< HEAD
 
+=======
+>>>>>>> f71b3ab9e91372bc83dbc2f3eb80ac567e8885e1
 Further work proposed on this project include:
 - Incorporating **temporal data** (e.g., time of day, day of week) since CityBikes data is dynamic and availability changes hourly.
 - Integrate **weather conditions** as a feature — a strong potential influence on bike usage and station size.
