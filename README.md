@@ -1,7 +1,6 @@
 # Final-Project-Statistical-Modelling-with-Python
 
 ## Project/Goals
-(fill in your description and goals here)
 
 The goal of this project is to investigate whether the number of bikes at a given bike-sharing station is related to the surrounding environment — specifically, nearby restaurants, bars, and other points of interest (POIs).
 
@@ -15,8 +14,6 @@ To explore this relationship, I:
 ---
 
 ## Process
-### (your step 1)
-### (your step 2)
 
 ### Part 1: Retrieving Station Data
 I began by querying the CityBikes API to retrieve real-time data on bike stations in our chosen city (Abu Dhabi and Acces Velo Saguenay initially, then Montreal and Acces Velo Saguenay due to better data availability). Each station included attributes like `latitude`, `longitude`, `free_bikes`, and `empty_slots`.
@@ -61,7 +58,6 @@ I interpreted coefficients, validated statistical significance, and discussed mo
 ---
 
 ## Results
-(fill in what you found about the comparative quality of API coverage in your chosen area and the results of your model.)
 
 - Yelp had **better POI coverage** for our selected city than Foursquare — more venues per station, more detailed ratings, and stronger correlations with station size.
 - The **linear model** had low explanatory power (R-square ~ 0.03), suggesting that station capacity is driven by more than just nearby POIs.
@@ -72,7 +68,6 @@ I interpreted coefficients, validated statistical significance, and discussed mo
 ---
 
 ## Challenges 
-(discuss challenges you faced in the project)
 
 - **CityBikes API coverage** was limited for some cities. Initial choice (Abu Dhabi) returned many stations with no corresponding POIs in Yelp.
 - **Yelp API limits** (300 calls/day) forced careful testing and working with a limited subset of stations.
@@ -84,7 +79,6 @@ I interpreted coefficients, validated statistical significance, and discussed mo
 
 
 ## Future Goals
-(what would you do if you had more time?)
 
 Further work proposed on this project include:
 - Incorporating **temporal data** (e.g., time of day, day of week) since CityBikes data is dynamic and availability changes hourly.
